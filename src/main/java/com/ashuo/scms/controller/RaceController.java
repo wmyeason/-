@@ -90,6 +90,9 @@ public class RaceController {
     public ServerResponse updateRace(@RequestBody Race race){
         //设置这场比赛的比分
         boolean b = raceService.updateRace(race);
+        if(!b){
+            return ServerResponse.createByErrorCodeMessage(400,"失败！");
+        }
         //通过赢家设置4强的比分
         //先设置是下一场的A队还是B队  可以根据ID是否是偶数判断是否是主客队
         Race win=new Race();
