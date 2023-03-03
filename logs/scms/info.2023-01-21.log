@@ -1,0 +1,1106 @@
+[31m2023-01-21 10:20:41[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarting,55]- Starting ScmsApplication using Java 1.8.0_341 on DESKTOP-P6L8B66 with PID 9380 (D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms\target\classes started by chaowie in D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms)
+[31m2023-01-21 10:20:41[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStartupProfileInfo,659]- No active profile set, falling back to default profiles: default
+[31m2023-01-21 10:20:41[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[31m2023-01-21 10:20:41[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[31m2023-01-21 10:20:45[0;39m [32m[restartedMain][0;39m [31mWARN [0;39m [1;35mo.m.s.mapper.ClassPathMapperScanner[0;39m [warn,44]- No MyBatis mapper was found in '[com.ashuo.scms]' package. Please check your configuration.
+[31m2023-01-21 10:20:45[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'shiroConfig' of type [com.ashuo.scms.config.ShiroConfig$$EnhancerBySpringCGLIB$$260d46d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:46[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:46[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatisPlusConfig' of type [com.ashuo.scms.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$2ac6acb0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:46[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:46[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$1a6d4d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:46[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$dd8a5dad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:46[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.a.d.s.b.a.DruidDataSourceAutoConfigure[0;39m [dataSource,56]- Init DruidDataSource
+[31m2023-01-21 10:20:46[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:46[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.alibaba.druid.pool.DruidDataSource[0;39m [init,985]- {dataSource-1} inited
+[31m2023-01-21 10:20:46[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:47[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:47[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:47[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:47[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:47[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userServiceImpl' of type [com.ashuo.scms.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:47[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'accountRealm' of type [com.ashuo.scms.shiro.AccountRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:48[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:48[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:20:48[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [initialize,108]- Tomcat initialized with port(s): 8088 (http)
+[31m2023-01-21 10:20:48[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Initializing ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:20:48[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardService[0;39m [log,173]- Starting service [Tomcat]
+[31m2023-01-21 10:20:48[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardEngine[0;39m [log,173]- Starting Servlet engine: [Apache Tomcat/9.0.53]
+[31m2023-01-21 10:20:48[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m [log,173]- Initializing Spring embedded WebApplicationContext
+[31m2023-01-21 10:20:48[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [prepareWebApplicationContext,290]- Root WebApplicationContext: initialization completed in 6840 ms
+[31m2023-01-21 10:20:49[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m [initHandlerMethods,69]- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[31m2023-01-21 10:20:49[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.a.OptionalLiveReloadServer[0;39m [startServer,58]- LiveReload server is running on port 35729
+[31m2023-01-21 10:20:50[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m [getOrDeducePassword,86]- 
+
+Using generated security password: dd59f2cf-2d0e-4eca-9af9-c633c5ce642c
+
+[31m2023-01-21 10:20:50[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.s.web.DefaultSecurityFilterChain[0;39m [<init>,51]- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2728b7a0, org.springframework.security.web.context.SecurityContextPersistenceFilter@14087eef, org.springframework.security.web.header.HeaderWriterFilter@48212d0e, org.springframework.web.filter.CorsFilter@202b0279, org.springframework.security.web.authentication.logout.LogoutFilter@44b97fcf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@326025a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71215a5a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3fcafa10, org.springframework.security.web.session.SessionManagementFilter@577e992a, org.springframework.security.web.access.ExceptionTranslationFilter@6bb49d65, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b81014]
+[31m2023-01-21 10:20:50[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Starting ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:20:50[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [start,220]- Tomcat started on port(s): 8088 (http) with context path ''
+[31m2023-01-21 10:20:50[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,160]- Context refreshed
+[31m2023-01-21 10:20:50[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,163]- Found 1 custom documentation plugin(s)
+[31m2023-01-21 10:20:50[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.s.ApiListingReferenceScanner[0;39m [scan,41]- Scanning for api listing references
+[31m2023-01-21 10:20:50[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarted,61]- Started ScmsApplication in 9.105 seconds (JVM running for 10.63)
+[31m2023-01-21 10:23:56[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m [log,173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[31m2023-01-21 10:23:56[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.web.servlet.DispatcherServlet[0;39m [initServletBean,525]- Initializing Servlet 'dispatcherServlet'
+[31m2023-01-21 10:23:56[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.web.servlet.DispatcherServlet[0;39m [initServletBean,547]- Completed initialization in 1 ms
+[31m2023-01-21 10:25:34[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarting,55]- Starting ScmsApplication using Java 1.8.0_341 on DESKTOP-P6L8B66 with PID 10524 (D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms\target\classes started by chaowie in D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms)
+[31m2023-01-21 10:25:34[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStartupProfileInfo,659]- No active profile set, falling back to default profiles: default
+[31m2023-01-21 10:25:34[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[31m2023-01-21 10:25:34[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [31mWARN [0;39m [1;35mo.m.s.mapper.ClassPathMapperScanner[0;39m [warn,44]- No MyBatis mapper was found in '[com.ashuo.scms]' package. Please check your configuration.
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'shiroConfig' of type [com.ashuo.scms.config.ShiroConfig$$EnhancerBySpringCGLIB$$8dd316be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatisPlusConfig' of type [com.ashuo.scms.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$928c7c9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$696ca4bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$45502d97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.a.d.s.b.a.DruidDataSourceAutoConfigure[0;39m [dataSource,56]- Init DruidDataSource
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.alibaba.druid.pool.DruidDataSource[0;39m [init,985]- {dataSource-1} inited
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userServiceImpl' of type [com.ashuo.scms.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:35[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'accountRealm' of type [com.ashuo.scms.shiro.AccountRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:36[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:36[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:25:36[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [initialize,108]- Tomcat initialized with port(s): 8088 (http)
+[31m2023-01-21 10:25:36[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Initializing ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:25:36[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardService[0;39m [log,173]- Starting service [Tomcat]
+[31m2023-01-21 10:25:36[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardEngine[0;39m [log,173]- Starting Servlet engine: [Apache Tomcat/9.0.53]
+[31m2023-01-21 10:25:36[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m [log,173]- Initializing Spring embedded WebApplicationContext
+[31m2023-01-21 10:25:36[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [prepareWebApplicationContext,290]- Root WebApplicationContext: initialization completed in 2301 ms
+[31m2023-01-21 10:25:37[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m [initHandlerMethods,69]- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[31m2023-01-21 10:25:37[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.a.OptionalLiveReloadServer[0;39m [startServer,58]- LiveReload server is running on port 35729
+[31m2023-01-21 10:25:37[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m [getOrDeducePassword,86]- 
+
+Using generated security password: 57486d07-b661-41e6-a525-0b383ceeda8e
+
+[31m2023-01-21 10:25:37[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.s.web.DefaultSecurityFilterChain[0;39m [<init>,51]- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a15ec3e, org.springframework.security.web.context.SecurityContextPersistenceFilter@8c6e0f3, org.springframework.security.web.header.HeaderWriterFilter@7f5389a2, org.springframework.web.filter.CorsFilter@ad6a2bb, org.springframework.security.web.authentication.logout.LogoutFilter@7e31a995, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e74924d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fa46181, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@372bcc88, org.springframework.security.web.session.SessionManagementFilter@4490159c, org.springframework.security.web.access.ExceptionTranslationFilter@69cc9226, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ac91ff5]
+[31m2023-01-21 10:25:37[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Starting ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:25:37[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [start,220]- Tomcat started on port(s): 8088 (http) with context path ''
+[31m2023-01-21 10:25:37[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,160]- Context refreshed
+[31m2023-01-21 10:25:37[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,163]- Found 1 custom documentation plugin(s)
+[31m2023-01-21 10:25:37[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.s.ApiListingReferenceScanner[0;39m [scan,41]- Scanning for api listing references
+[31m2023-01-21 10:25:38[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarted,61]- Started ScmsApplication in 4.127 seconds (JVM running for 5.335)
+[31m2023-01-21 10:25:43[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m [log,173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[31m2023-01-21 10:25:43[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.web.servlet.DispatcherServlet[0;39m [initServletBean,525]- Initializing Servlet 'dispatcherServlet'
+[31m2023-01-21 10:25:43[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.web.servlet.DispatcherServlet[0;39m [initServletBean,547]- Completed initialization in 1 ms
+[31m2023-01-21 10:28:05[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarting,55]- Starting ScmsApplication using Java 1.8.0_341 on DESKTOP-P6L8B66 with PID 13792 (D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms\target\classes started by chaowie in D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms)
+[31m2023-01-21 10:28:05[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStartupProfileInfo,659]- No active profile set, falling back to default profiles: default
+[31m2023-01-21 10:28:05[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[31m2023-01-21 10:28:05[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[31m2023-01-21 10:28:06[0;39m [32m[restartedMain][0;39m [31mWARN [0;39m [1;35mo.m.s.mapper.ClassPathMapperScanner[0;39m [warn,44]- No MyBatis mapper was found in '[com.ashuo.scms]' package. Please check your configuration.
+[31m2023-01-21 10:28:06[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'shiroConfig' of type [com.ashuo.scms.config.ShiroConfig$$EnhancerBySpringCGLIB$$dfba7c78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:06[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:06[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatisPlusConfig' of type [com.ashuo.scms.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$e473e254] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:06[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:06[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$bb540a79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:06[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$97379351] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:06[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.a.d.s.b.a.DruidDataSourceAutoConfigure[0;39m [dataSource,56]- Init DruidDataSource
+[31m2023-01-21 10:28:06[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:06[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.alibaba.druid.pool.DruidDataSource[0;39m [init,985]- {dataSource-1} inited
+[31m2023-01-21 10:28:06[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:07[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:07[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:07[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:07[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:07[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userServiceImpl' of type [com.ashuo.scms.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:07[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'accountRealm' of type [com.ashuo.scms.shiro.AccountRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:07[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:07[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:28:07[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [initialize,108]- Tomcat initialized with port(s): 8088 (http)
+[31m2023-01-21 10:28:07[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Initializing ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:28:07[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardService[0;39m [log,173]- Starting service [Tomcat]
+[31m2023-01-21 10:28:07[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardEngine[0;39m [log,173]- Starting Servlet engine: [Apache Tomcat/9.0.53]
+[31m2023-01-21 10:28:08[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m [log,173]- Initializing Spring embedded WebApplicationContext
+[31m2023-01-21 10:28:08[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [prepareWebApplicationContext,290]- Root WebApplicationContext: initialization completed in 2667 ms
+[31m2023-01-21 10:28:08[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m [initHandlerMethods,69]- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[31m2023-01-21 10:28:09[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.a.OptionalLiveReloadServer[0;39m [startServer,58]- LiveReload server is running on port 35729
+[31m2023-01-21 10:28:09[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m [getOrDeducePassword,86]- 
+
+Using generated security password: 3e13c500-0c26-4087-9faf-3c7ca4bbf2cf
+
+[31m2023-01-21 10:28:09[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.s.web.DefaultSecurityFilterChain[0;39m [<init>,51]- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@693606dc, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a33a777, org.springframework.security.web.header.HeaderWriterFilter@dbfc03d, org.springframework.web.filter.CorsFilter@645b2a3, org.springframework.security.web.authentication.logout.LogoutFilter@1f59fd45, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ea31d93, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b55f471, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5bed391d, org.springframework.security.web.session.SessionManagementFilter@25422905, org.springframework.security.web.access.ExceptionTranslationFilter@b2be15b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b2ef86f]
+[31m2023-01-21 10:28:09[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Starting ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:28:09[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [start,220]- Tomcat started on port(s): 8088 (http) with context path ''
+[31m2023-01-21 10:28:09[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,160]- Context refreshed
+[31m2023-01-21 10:28:09[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,163]- Found 1 custom documentation plugin(s)
+[31m2023-01-21 10:28:09[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.s.ApiListingReferenceScanner[0;39m [scan,41]- Scanning for api listing references
+[31m2023-01-21 10:28:09[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarted,61]- Started ScmsApplication in 4.844 seconds (JVM running for 6.914)
+[31m2023-01-21 10:28:15[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m [log,173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[31m2023-01-21 10:28:15[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.web.servlet.DispatcherServlet[0;39m [initServletBean,525]- Initializing Servlet 'dispatcherServlet'
+[31m2023-01-21 10:28:15[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.web.servlet.DispatcherServlet[0;39m [initServletBean,547]- Completed initialization in 1 ms
+[31m2023-01-21 10:41:01[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarting,55]- Starting ScmsApplication using Java 1.8.0_341 on DESKTOP-P6L8B66 with PID 2980 (D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms\target\classes started by chaowie in D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms)
+[31m2023-01-21 10:41:01[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStartupProfileInfo,659]- No active profile set, falling back to default profiles: default
+[31m2023-01-21 10:41:01[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[31m2023-01-21 10:41:01[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[31m2023-01-21 10:41:02[0;39m [32m[restartedMain][0;39m [31mWARN [0;39m [1;35mo.m.s.mapper.ClassPathMapperScanner[0;39m [warn,44]- No MyBatis mapper was found in '[com.ashuo.scms]' package. Please check your configuration.
+[31m2023-01-21 10:41:02[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'shiroConfig' of type [com.ashuo.scms.config.ShiroConfig$$EnhancerBySpringCGLIB$$ecccbb05] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:02[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:02[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatisPlusConfig' of type [com.ashuo.scms.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$f18620e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:02[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:02[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$c8664906] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:02[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$a449d1de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:02[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.a.d.s.b.a.DruidDataSourceAutoConfigure[0;39m [dataSource,56]- Init DruidDataSource
+[31m2023-01-21 10:41:02[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:02[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.alibaba.druid.pool.DruidDataSource[0;39m [init,985]- {dataSource-1} inited
+[31m2023-01-21 10:41:02[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userServiceImpl' of type [com.ashuo.scms.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'accountRealm' of type [com.ashuo.scms.shiro.AccountRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [initialize,108]- Tomcat initialized with port(s): 8088 (http)
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Initializing ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardService[0;39m [log,173]- Starting service [Tomcat]
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardEngine[0;39m [log,173]- Starting Servlet engine: [Apache Tomcat/9.0.53]
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m [log,173]- Initializing Spring embedded WebApplicationContext
+[31m2023-01-21 10:41:03[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [prepareWebApplicationContext,290]- Root WebApplicationContext: initialization completed in 2328 ms
+[31m2023-01-21 10:41:04[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m [initHandlerMethods,69]- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[31m2023-01-21 10:41:04[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.a.OptionalLiveReloadServer[0;39m [startServer,58]- LiveReload server is running on port 35729
+[31m2023-01-21 10:41:04[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m [getOrDeducePassword,86]- 
+
+Using generated security password: 016fcc6f-2660-4656-8a27-8f61aa37f37c
+
+[31m2023-01-21 10:41:04[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.s.web.DefaultSecurityFilterChain[0;39m [<init>,51]- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d565253, org.springframework.security.web.context.SecurityContextPersistenceFilter@56b79c7d, org.springframework.security.web.header.HeaderWriterFilter@74958dda, org.springframework.web.filter.CorsFilter@521d3e4c, org.springframework.security.web.authentication.logout.LogoutFilter@5300ac8a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b79e38d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@791cf740, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e9b3f98, org.springframework.security.web.session.SessionManagementFilter@729db0a0, org.springframework.security.web.access.ExceptionTranslationFilter@552f071b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4193194e]
+[31m2023-01-21 10:41:04[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Starting ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:41:04[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [start,220]- Tomcat started on port(s): 8088 (http) with context path ''
+[31m2023-01-21 10:41:04[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,160]- Context refreshed
+[31m2023-01-21 10:41:04[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,163]- Found 1 custom documentation plugin(s)
+[31m2023-01-21 10:41:04[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.s.ApiListingReferenceScanner[0;39m [scan,41]- Scanning for api listing references
+[31m2023-01-21 10:41:05[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarted,61]- Started ScmsApplication in 4.164 seconds (JVM running for 5.332)
+[31m2023-01-21 10:43:53[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarting,55]- Starting ScmsApplication using Java 1.8.0_341 on DESKTOP-P6L8B66 with PID 10760 (D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms\target\classes started by chaowie in D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms)
+[31m2023-01-21 10:43:53[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStartupProfileInfo,659]- No active profile set, falling back to default profiles: default
+[31m2023-01-21 10:43:53[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[31m2023-01-21 10:43:53[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[31m2023-01-21 10:43:54[0;39m [32m[restartedMain][0;39m [31mWARN [0;39m [1;35mo.m.s.mapper.ClassPathMapperScanner[0;39m [warn,44]- No MyBatis mapper was found in '[com.ashuo.scms]' package. Please check your configuration.
+[31m2023-01-21 10:43:54[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'shiroConfig' of type [com.ashuo.scms.config.ShiroConfig$$EnhancerBySpringCGLIB$$10459430] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:54[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:54[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatisPlusConfig' of type [com.ashuo.scms.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$14fefa0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:54[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:54[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$ebdf2231] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:54[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$c7c2ab09] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:54[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.a.d.s.b.a.DruidDataSourceAutoConfigure[0;39m [dataSource,56]- Init DruidDataSource
+[31m2023-01-21 10:43:55[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:55[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.alibaba.druid.pool.DruidDataSource[0;39m [init,985]- {dataSource-1} inited
+[31m2023-01-21 10:43:55[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:55[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:55[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:55[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:55[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:55[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userServiceImpl' of type [com.ashuo.scms.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:55[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'accountRealm' of type [com.ashuo.scms.shiro.AccountRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:55[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:55[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:43:56[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [initialize,108]- Tomcat initialized with port(s): 8088 (http)
+[31m2023-01-21 10:43:56[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Initializing ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:43:56[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardService[0;39m [log,173]- Starting service [Tomcat]
+[31m2023-01-21 10:43:56[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardEngine[0;39m [log,173]- Starting Servlet engine: [Apache Tomcat/9.0.53]
+[31m2023-01-21 10:43:56[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m [log,173]- Initializing Spring embedded WebApplicationContext
+[31m2023-01-21 10:43:56[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [prepareWebApplicationContext,290]- Root WebApplicationContext: initialization completed in 2316 ms
+[31m2023-01-21 10:43:56[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m [initHandlerMethods,69]- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[31m2023-01-21 10:43:56[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.a.OptionalLiveReloadServer[0;39m [startServer,58]- LiveReload server is running on port 35729
+[31m2023-01-21 10:43:57[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m [getOrDeducePassword,86]- 
+
+Using generated security password: a538d1af-7321-4381-a0e9-b945cfae6869
+
+[31m2023-01-21 10:43:57[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.s.web.DefaultSecurityFilterChain[0;39m [<init>,51]- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19fc226, org.springframework.security.web.context.SecurityContextPersistenceFilter@3549f171, org.springframework.security.web.header.HeaderWriterFilter@3df2da39, org.springframework.web.filter.CorsFilter@75ad04db, org.springframework.security.web.authentication.logout.LogoutFilter@2c72d391, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@218b0a07, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72b71403, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a2621bb, org.springframework.security.web.session.SessionManagementFilter@4fac7ec1, org.springframework.security.web.access.ExceptionTranslationFilter@37a45545, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59d6243f]
+[31m2023-01-21 10:43:57[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Starting ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:43:57[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [start,220]- Tomcat started on port(s): 8088 (http) with context path ''
+[31m2023-01-21 10:43:57[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,160]- Context refreshed
+[31m2023-01-21 10:43:57[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,163]- Found 1 custom documentation plugin(s)
+[31m2023-01-21 10:43:57[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.s.ApiListingReferenceScanner[0;39m [scan,41]- Scanning for api listing references
+[31m2023-01-21 10:43:57[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarted,61]- Started ScmsApplication in 4.284 seconds (JVM running for 5.327)
+[31m2023-01-21 10:44:04[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m [log,173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[31m2023-01-21 10:44:04[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.web.servlet.DispatcherServlet[0;39m [initServletBean,525]- Initializing Servlet 'dispatcherServlet'
+[31m2023-01-21 10:44:04[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.web.servlet.DispatcherServlet[0;39m [initServletBean,547]- Completed initialization in 1 ms
+[31m2023-01-21 10:44:04[0;39m [32m[http-nio-8088-exec-1][0;39m [31mWARN [0;39m [1;35mo.a.s.authc.AbstractAuthenticator[0;39m [authenticate,216]- Authentication failed for token submission [com.ashuo.scms.shiro.JwtToken@1ea6ba5].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+### The error may exist in file [D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms\target\classes\mapper\UserMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT         u.user_id,         u.user_no,         u.nickname,         u.`username`,         u.`password`,         u.user_sex,         u.user_type,         u.phone,         u.create_time,         u.edit_time,         t.team_id,         t.team_name         FROM         `user` u         INNER JOIN `team` t ON u.t_id = t.team_id          WHERE  u.username = ?          Limit 1 LIMIT ?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:74)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy86.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForIPage(MybatisMapperMethod.java:115)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:86)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:61)
+	at com.sun.proxy.$Proxy87.queryUserByUserCondition(Unknown Source)
+	at com.ashuo.scms.service.impl.UserServiceImpl.getUserByCondition(UserServiceImpl.java:31)
+	at com.ashuo.scms.shiro.AccountRealm.doGetAuthenticationInfo(AccountRealm.java:57)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:568)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:270)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:256)
+	at com.ashuo.scms.shiro.JwtFilter.executeLogin(JwtFilter.java:39)
+	at com.ashuo.scms.shiro.JwtFilter.isAccessAllowed(JwtFilter.java:57)
+	at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162)
+	at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203)
+	at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178)
+	at com.ashuo.scms.shiro.JwtFilter.preHandle(JwtFilter.java:80)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1242)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy156.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy154.query(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy153.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 99 common frames omitted
+[31m2023-01-21 10:44:16[0;39m [32m[http-nio-8088-exec-2][0;39m [31mWARN [0;39m [1;35mo.a.s.authc.AbstractAuthenticator[0;39m [authenticate,216]- Authentication failed for token submission [com.ashuo.scms.shiro.JwtToken@7c1ac374].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+### The error may exist in file [D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms\target\classes\mapper\UserMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT         u.user_id,         u.user_no,         u.nickname,         u.`username`,         u.`password`,         u.user_sex,         u.user_type,         u.phone,         u.create_time,         u.edit_time,         t.team_id,         t.team_name         FROM         `user` u         INNER JOIN `team` t ON u.t_id = t.team_id          WHERE  u.username = ?          Limit 1 LIMIT ?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:74)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy86.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForIPage(MybatisMapperMethod.java:115)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:86)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:61)
+	at com.sun.proxy.$Proxy87.queryUserByUserCondition(Unknown Source)
+	at com.ashuo.scms.service.impl.UserServiceImpl.getUserByCondition(UserServiceImpl.java:31)
+	at com.ashuo.scms.shiro.AccountRealm.doGetAuthenticationInfo(AccountRealm.java:57)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:568)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:270)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:256)
+	at com.ashuo.scms.shiro.JwtFilter.executeLogin(JwtFilter.java:39)
+	at com.ashuo.scms.shiro.JwtFilter.isAccessAllowed(JwtFilter.java:57)
+	at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162)
+	at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203)
+	at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178)
+	at com.ashuo.scms.shiro.JwtFilter.preHandle(JwtFilter.java:80)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1242)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy156.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy154.query(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy153.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 99 common frames omitted
+[31m2023-01-21 10:44:16[0;39m [32m[http-nio-8088-exec-2][0;39m [31mWARN [0;39m [1;35mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m [logException,207]- Resolved [org.apache.shiro.authz.UnauthenticatedException: The current Subject is not authenticated.  Access denied.]
+[31m2023-01-21 10:44:17[0;39m [32m[http-nio-8088-exec-3][0;39m [31mWARN [0;39m [1;35mo.a.s.authc.AbstractAuthenticator[0;39m [authenticate,216]- Authentication failed for token submission [com.ashuo.scms.shiro.JwtToken@59d5e2dc].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+### The error may exist in file [D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms\target\classes\mapper\UserMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT         u.user_id,         u.user_no,         u.nickname,         u.`username`,         u.`password`,         u.user_sex,         u.user_type,         u.phone,         u.create_time,         u.edit_time,         t.team_id,         t.team_name         FROM         `user` u         INNER JOIN `team` t ON u.t_id = t.team_id          WHERE  u.username = ?          Limit 1 LIMIT ?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:74)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy86.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForIPage(MybatisMapperMethod.java:115)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:86)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:61)
+	at com.sun.proxy.$Proxy87.queryUserByUserCondition(Unknown Source)
+	at com.ashuo.scms.service.impl.UserServiceImpl.getUserByCondition(UserServiceImpl.java:31)
+	at com.ashuo.scms.shiro.AccountRealm.doGetAuthenticationInfo(AccountRealm.java:57)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:568)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:270)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:256)
+	at com.ashuo.scms.shiro.JwtFilter.executeLogin(JwtFilter.java:39)
+	at com.ashuo.scms.shiro.JwtFilter.isAccessAllowed(JwtFilter.java:57)
+	at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162)
+	at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203)
+	at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178)
+	at com.ashuo.scms.shiro.JwtFilter.preHandle(JwtFilter.java:80)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1242)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy156.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy154.query(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy153.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 99 common frames omitted
+[31m2023-01-21 10:44:17[0;39m [32m[http-nio-8088-exec-3][0;39m [31mWARN [0;39m [1;35mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m [logException,207]- Resolved [org.apache.shiro.authz.UnauthenticatedException: The current Subject is not authenticated.  Access denied.]
+[31m2023-01-21 10:44:17[0;39m [32m[http-nio-8088-exec-4][0;39m [31mWARN [0;39m [1;35mo.a.s.authc.AbstractAuthenticator[0;39m [authenticate,216]- Authentication failed for token submission [com.ashuo.scms.shiro.JwtToken@10d90c90].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+### The error may exist in file [D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms\target\classes\mapper\UserMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT         u.user_id,         u.user_no,         u.nickname,         u.`username`,         u.`password`,         u.user_sex,         u.user_type,         u.phone,         u.create_time,         u.edit_time,         t.team_id,         t.team_name         FROM         `user` u         INNER JOIN `team` t ON u.t_id = t.team_id          WHERE  u.username = ?          Limit 1 LIMIT ?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:74)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy86.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForIPage(MybatisMapperMethod.java:115)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:86)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:61)
+	at com.sun.proxy.$Proxy87.queryUserByUserCondition(Unknown Source)
+	at com.ashuo.scms.service.impl.UserServiceImpl.getUserByCondition(UserServiceImpl.java:31)
+	at com.ashuo.scms.shiro.AccountRealm.doGetAuthenticationInfo(AccountRealm.java:57)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:568)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:270)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:256)
+	at com.ashuo.scms.shiro.JwtFilter.executeLogin(JwtFilter.java:39)
+	at com.ashuo.scms.shiro.JwtFilter.isAccessAllowed(JwtFilter.java:57)
+	at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162)
+	at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203)
+	at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178)
+	at com.ashuo.scms.shiro.JwtFilter.preHandle(JwtFilter.java:80)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1242)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy156.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy154.query(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy153.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 99 common frames omitted
+[31m2023-01-21 10:44:17[0;39m [32m[http-nio-8088-exec-4][0;39m [31mWARN [0;39m [1;35mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m [logException,207]- Resolved [org.apache.shiro.authz.UnauthenticatedException: The current Subject is not authenticated.  Access denied.]
+[31m2023-01-21 10:44:22[0;39m [32m[http-nio-8088-exec-5][0;39m [31mWARN [0;39m [1;35mo.a.s.authc.AbstractAuthenticator[0;39m [authenticate,216]- Authentication failed for token submission [com.ashuo.scms.shiro.JwtToken@4246d255].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+### The error may exist in file [D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms\target\classes\mapper\UserMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT         u.user_id,         u.user_no,         u.nickname,         u.`username`,         u.`password`,         u.user_sex,         u.user_type,         u.phone,         u.create_time,         u.edit_time,         t.team_id,         t.team_name         FROM         `user` u         INNER JOIN `team` t ON u.t_id = t.team_id          WHERE  u.username = ?          Limit 1 LIMIT ?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:74)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy86.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForIPage(MybatisMapperMethod.java:115)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:86)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:61)
+	at com.sun.proxy.$Proxy87.queryUserByUserCondition(Unknown Source)
+	at com.ashuo.scms.service.impl.UserServiceImpl.getUserByCondition(UserServiceImpl.java:31)
+	at com.ashuo.scms.shiro.AccountRealm.doGetAuthenticationInfo(AccountRealm.java:57)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:568)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:270)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:256)
+	at com.ashuo.scms.shiro.JwtFilter.executeLogin(JwtFilter.java:39)
+	at com.ashuo.scms.shiro.JwtFilter.isAccessAllowed(JwtFilter.java:57)
+	at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162)
+	at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203)
+	at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178)
+	at com.ashuo.scms.shiro.JwtFilter.preHandle(JwtFilter.java:80)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,1' at line 18
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1242)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy156.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy154.query(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy153.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 99 common frames omitted
+[31m2023-01-21 10:44:22[0;39m [32m[http-nio-8088-exec-5][0;39m [31mWARN [0;39m [1;35mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m [logException,207]- Resolved [org.apache.shiro.authz.UnauthenticatedException: The current Subject is not authenticated.  Access denied.]
+[31m2023-01-21 10:44:58[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarting,55]- Starting ScmsApplication using Java 1.8.0_341 on DESKTOP-P6L8B66 with PID 10752 (D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms\target\classes started by chaowie in D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms)
+[31m2023-01-21 10:44:58[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStartupProfileInfo,659]- No active profile set, falling back to default profiles: default
+[31m2023-01-21 10:44:58[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[31m2023-01-21 10:44:58[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [31mWARN [0;39m [1;35mo.m.s.mapper.ClassPathMapperScanner[0;39m [warn,44]- No MyBatis mapper was found in '[com.ashuo.scms]' package. Please check your configuration.
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'shiroConfig' of type [com.ashuo.scms.config.ShiroConfig$$EnhancerBySpringCGLIB$$f07ceb96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatisPlusConfig' of type [com.ashuo.scms.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$f5365172] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$cc167997] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$a7fa026f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.a.d.s.b.a.DruidDataSourceAutoConfigure[0;39m [dataSource,56]- Init DruidDataSource
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.alibaba.druid.pool.DruidDataSource[0;39m [init,985]- {dataSource-1} inited
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userServiceImpl' of type [com.ashuo.scms.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:44:59[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'accountRealm' of type [com.ashuo.scms.shiro.AccountRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:45:00[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:45:00[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:45:00[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [initialize,108]- Tomcat initialized with port(s): 8088 (http)
+[31m2023-01-21 10:45:00[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Initializing ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:45:00[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardService[0;39m [log,173]- Starting service [Tomcat]
+[31m2023-01-21 10:45:00[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardEngine[0;39m [log,173]- Starting Servlet engine: [Apache Tomcat/9.0.53]
+[31m2023-01-21 10:45:00[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m [log,173]- Initializing Spring embedded WebApplicationContext
+[31m2023-01-21 10:45:00[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [prepareWebApplicationContext,290]- Root WebApplicationContext: initialization completed in 2314 ms
+[31m2023-01-21 10:45:01[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m [initHandlerMethods,69]- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[31m2023-01-21 10:45:01[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.a.OptionalLiveReloadServer[0;39m [startServer,58]- LiveReload server is running on port 35729
+[31m2023-01-21 10:45:01[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m [getOrDeducePassword,86]- 
+
+Using generated security password: a9aef600-e656-4018-b27f-cd6919c5ccda
+
+[31m2023-01-21 10:45:01[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.s.web.DefaultSecurityFilterChain[0;39m [<init>,51]- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@265b8c91, org.springframework.security.web.context.SecurityContextPersistenceFilter@471e6e20, org.springframework.security.web.header.HeaderWriterFilter@6bb49d65, org.springframework.web.filter.CorsFilter@54d83590, org.springframework.security.web.authentication.logout.LogoutFilter@3632c646, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48c3b9a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d6f2f3c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a276fc, org.springframework.security.web.session.SessionManagementFilter@2d538a16, org.springframework.security.web.access.ExceptionTranslationFilter@472f1e05, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d27f9c1]
+[31m2023-01-21 10:45:01[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Starting ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:45:01[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [start,220]- Tomcat started on port(s): 8088 (http) with context path ''
+[31m2023-01-21 10:45:01[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,160]- Context refreshed
+[31m2023-01-21 10:45:01[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,163]- Found 1 custom documentation plugin(s)
+[31m2023-01-21 10:45:01[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.s.ApiListingReferenceScanner[0;39m [scan,41]- Scanning for api listing references
+[31m2023-01-21 10:45:02[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarted,61]- Started ScmsApplication in 4.134 seconds (JVM running for 5.234)
+[31m2023-01-21 10:45:05[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m [log,173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[31m2023-01-21 10:45:05[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.web.servlet.DispatcherServlet[0;39m [initServletBean,525]- Initializing Servlet 'dispatcherServlet'
+[31m2023-01-21 10:45:05[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.web.servlet.DispatcherServlet[0;39m [initServletBean,547]- Completed initialization in 2 ms
+[31m2023-01-21 10:45:14[0;39m [32m[http-nio-8088-exec-2][0;39m [34mINFO [0;39m [1;35mc.a.scms.controller.UserController[0;39m [changePwd,94]- *******userName     admin
+[31m2023-01-21 10:48:40[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarting,55]- Starting ScmsApplication using Java 1.8.0_341 on DESKTOP-P6L8B66 with PID 8284 (D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms\target\classes started by chaowie in D:\A学习资料\Java\毕业设计\SCMS-main\SCMS-main\scms)
+[31m2023-01-21 10:48:40[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStartupProfileInfo,659]- No active profile set, falling back to default profiles: default
+[31m2023-01-21 10:48:40[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[31m2023-01-21 10:48:40[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m [logTo,255]- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[31m2023-01-21 10:48:41[0;39m [32m[restartedMain][0;39m [31mWARN [0;39m [1;35mo.m.s.mapper.ClassPathMapperScanner[0;39m [warn,44]- No MyBatis mapper was found in '[com.ashuo.scms]' package. Please check your configuration.
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'shiroConfig' of type [com.ashuo.scms.config.ShiroConfig$$EnhancerBySpringCGLIB$$e71692cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'mybatisPlusConfig' of type [com.ashuo.scms.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$ebcff8ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$c2b020d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$9e93a9a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.a.d.s.b.a.DruidDataSourceAutoConfigure[0;39m [dataSource,56]- Init DruidDataSource
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.alibaba.druid.pool.DruidDataSource[0;39m [init,985]- {dataSource-1} inited
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'userServiceImpl' of type [com.ashuo.scms.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:42[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'accountRealm' of type [com.ashuo.scms.shiro.AccountRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:43[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:43[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m [postProcessAfterInitialization,376]- Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31m2023-01-21 10:48:43[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [initialize,108]- Tomcat initialized with port(s): 8088 (http)
+[31m2023-01-21 10:48:43[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Initializing ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:48:43[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardService[0;39m [log,173]- Starting service [Tomcat]
+[31m2023-01-21 10:48:43[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.catalina.core.StandardEngine[0;39m [log,173]- Starting Servlet engine: [Apache Tomcat/9.0.53]
+[31m2023-01-21 10:48:43[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m [log,173]- Initializing Spring embedded WebApplicationContext
+[31m2023-01-21 10:48:43[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [prepareWebApplicationContext,290]- Root WebApplicationContext: initialization completed in 2628 ms
+[31m2023-01-21 10:48:44[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m [initHandlerMethods,69]- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[31m2023-01-21 10:48:44[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.a.OptionalLiveReloadServer[0;39m [startServer,58]- LiveReload server is running on port 35729
+[31m2023-01-21 10:48:44[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m [getOrDeducePassword,86]- 
+
+Using generated security password: 66bda311-3f5c-44a9-ab99-f77a3c0ce1c1
+
+[31m2023-01-21 10:48:44[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.s.web.DefaultSecurityFilterChain[0;39m [<init>,51]- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1752304f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e25fcc9, org.springframework.security.web.header.HeaderWriterFilter@19d4a2ea, org.springframework.web.filter.CorsFilter@26f63f6e, org.springframework.security.web.authentication.logout.LogoutFilter@1d67fab2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c533f41, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4278f3f6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4af762d9, org.springframework.security.web.session.SessionManagementFilter@61858264, org.springframework.security.web.access.ExceptionTranslationFilter@82ca099, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28cff240]
+[31m2023-01-21 10:48:44[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.coyote.http11.Http11NioProtocol[0;39m [log,173]- Starting ProtocolHandler ["http-nio-8088"]
+[31m2023-01-21 10:48:44[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.tomcat.TomcatWebServer[0;39m [start,220]- Tomcat started on port(s): 8088 (http) with context path ''
+[31m2023-01-21 10:48:44[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,160]- Context refreshed
+[31m2023-01-21 10:48:45[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m [start,163]- Found 1 custom documentation plugin(s)
+[31m2023-01-21 10:48:45[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35ms.d.s.w.s.ApiListingReferenceScanner[0;39m [scan,41]- Scanning for api listing references
+[31m2023-01-21 10:48:45[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mcom.ashuo.scms.ScmsApplication[0;39m [logStarted,61]- Started ScmsApplication in 4.825 seconds (JVM running for 6.311)
+[31m2023-01-21 10:48:49[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m [log,173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[31m2023-01-21 10:48:49[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.web.servlet.DispatcherServlet[0;39m [initServletBean,525]- Initializing Servlet 'dispatcherServlet'
+[31m2023-01-21 10:48:49[0;39m [32m[http-nio-8088-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.web.servlet.DispatcherServlet[0;39m [initServletBean,547]- Completed initialization in 2 ms
+[31m2023-01-21 10:49:01[0;39m [32m[http-nio-8088-exec-2][0;39m [34mINFO [0;39m [1;35mc.a.scms.controller.UserController[0;39m [changePwd,94]- *******userName     admin
+[31m2023-01-21 10:49:01[0;39m [32m[http-nio-8088-exec-2][0;39m [34mINFO [0;39m [1;35mc.a.scms.controller.UserController[0;39m [changePwd,110]- *************Password     $2a$10$bI/B52OTqbT6m9HSTVOlgu8i3rPt/sTr.aJvurAKyhLrvwWzSJSSa
+[31m2023-01-21 10:49:45[0;39m [32m[http-nio-8088-exec-5][0;39m [34mINFO [0;39m [1;35mc.a.scms.controller.UserController[0;39m [changePwd,94]- *******userName     admin
+[31m2023-01-21 10:49:45[0;39m [32m[http-nio-8088-exec-5][0;39m [34mINFO [0;39m [1;35mc.a.scms.controller.UserController[0;39m [changePwd,110]- *************Password     $2a$10$Ig7q47EghizIEf4y3GFxMe7XRdEUTLAsgMgV5deW3sD8CtxBrw5JS
