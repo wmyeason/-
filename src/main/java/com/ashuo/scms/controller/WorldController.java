@@ -74,8 +74,14 @@ public class WorldController {
         //重置比赛不是删除所有记录   因为记录只能有16支队  15条比赛信息
         //所以要做的是将这些信息的状态都设置为对应的  0  或者  -1
 
-//        worldService.update();
-//        raceService.update();
+         boolean b= worldService.clearWorld();
+         if(!b){
+             return ServerResponse.createByErrorMessage("重置报名队伍失败");
+         }
+         b= raceService.clearRace();
+        if(!b){
+            return ServerResponse.createByErrorMessage("重置赛程失败");
+        }
 
         return ServerResponse.createBySuccess();
     }

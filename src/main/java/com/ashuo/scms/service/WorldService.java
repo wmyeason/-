@@ -20,4 +20,6 @@ public interface WorldService extends IService<World>{
     boolean isRegister(Integer id);
 
     void toCancel(Integer ids);
+
+    boolean clearWorld();
 }

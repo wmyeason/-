@@ -1,11 +1,11 @@
 package com.ashuo.scms.service.impl;
 
 
-import com.ashuo.scms.entity.QueryInfo;
 import com.ashuo.scms.entity.Race;
 import com.ashuo.scms.mapper.RaceMapper;
 import com.ashuo.scms.service.RaceService;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -54,5 +54,20 @@ public class RaceServiceImpl extends ServiceImpl<RaceMapper, Race> implements Ra
         wrapper.eq(Race::getStatus,i);
         List<Race> list = this.list(wrapper);
         return list;
+    }
+
+    @Override
+    public boolean clearRace() {
+        LambdaUpdateWrapper<Race> wrapper=new LambdaUpdateWrapper<>();
+        wrapper.set(Race::getAId,null)
+                .set(Race::getAName,null)
+                .set(Race::getAScore,null)
+                .set(Race::getBId,null)
+                .set(Race::getBName,null)
+                .set(Race::getBScore,null)
+                .set(Race::getResult,null)
+                .set(Race::getOverTime,null);
+        boolean b = this.update(wrapper);
+        return b;
     }
 }

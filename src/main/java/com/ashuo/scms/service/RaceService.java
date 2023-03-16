@@ -25,4 +25,6 @@ public interface RaceService extends IService<Race>{
     Integer getStartRace(int i);
 
     List<Race> getSixteen(int i);
+
+    boolean clearRace();
 }

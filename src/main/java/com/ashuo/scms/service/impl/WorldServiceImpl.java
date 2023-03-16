@@ -4,6 +4,7 @@ import com.ashuo.scms.entity.World;
 import com.ashuo.scms.mapper.WorldMapper;
 import com.ashuo.scms.service.WorldService;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import lombok.extern.slf4j.Slf4j;
@@ -58,5 +59,14 @@ public class WorldServiceImpl extends ServiceImpl<WorldMapper, World> implements
         World wr=new World();
         wr.setStatus(0);
         this.update(wr,wrapper);
+    }
+
+    @Override
+    public boolean clearWorld() {
+        LambdaUpdateWrapper<World> wrapper=new LambdaUpdateWrapper<>();
+        wrapper.set(World::getStatus,0)
+                .set(World::getTId,null);
+        boolean update = this.update(wrapper);
+        return update;
     }
 }
