@@ -35,7 +35,7 @@ public class RaceServiceImpl extends ServiceImpl<RaceMapper, Race> implements Ra
 
     @Override
     public IPage<Race> getRaceByIPage(Page<Race> racePage, Race race) {
-        return raceMapper.getRaceByIPages(racePage,race);
+        return raceMapper.getRaceByIPages(racePage, race);
     }
 
     @Override
@@ -50,23 +50,23 @@ public class RaceServiceImpl extends ServiceImpl<RaceMapper, Race> implements Ra
 
     @Override
     public List<Race> getSixteen(int i) {
-        LambdaQueryWrapper<Race> wrapper=new LambdaQueryWrapper<>();
-        wrapper.eq(Race::getStatus,i);
+        LambdaQueryWrapper<Race> wrapper = new LambdaQueryWrapper<>();
+        wrapper.eq(Race::getStatus, i);
         List<Race> list = this.list(wrapper);
         return list;
     }
 
     @Override
     public boolean clearRace() {
-        LambdaUpdateWrapper<Race> wrapper=new LambdaUpdateWrapper<>();
-        wrapper.set(Race::getAId,null)
-                .set(Race::getAName,null)
-                .set(Race::getAScore,null)
-                .set(Race::getBId,null)
-                .set(Race::getBName,null)
-                .set(Race::getBScore,null)
-                .set(Race::getResult,null)
-                .set(Race::getOverTime,null);
+        LambdaUpdateWrapper<Race> wrapper = new LambdaUpdateWrapper<>();
+        wrapper.set(Race::getAId, null)
+                .set(Race::getAName, null)
+                .set(Race::getAScore, null)
+                .set(Race::getBId, null)
+                .set(Race::getBName, null)
+                .set(Race::getBScore, null)
+                .set(Race::getResult, null)
+                .set(Race::getOverTime, 0);
         boolean b = this.update(wrapper);
         return b;
     }

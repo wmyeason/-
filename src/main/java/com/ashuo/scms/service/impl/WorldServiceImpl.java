@@ -65,7 +65,8 @@ public class WorldServiceImpl extends ServiceImpl<WorldMapper, World> implements
     public boolean clearWorld() {
         LambdaUpdateWrapper<World> wrapper=new LambdaUpdateWrapper<>();
         wrapper.set(World::getStatus,0)
-                .set(World::getTId,null);
+                .set(World::getTId,null)
+                .set(World::getTName,null);
         boolean update = this.update(wrapper);
         return update;
     }
