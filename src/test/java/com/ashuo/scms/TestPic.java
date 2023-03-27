@@ -99,8 +99,9 @@ public class TestPic {
         //=========================================自行发挥================================
         //todo 自己真实的地址:(如果项目中使用的阿里云,则自行改造'writeImage'方法,接受流对象就好了);
         //todo  图片保存本地  并且使用UUID给文件命名  并存入数据库中
-        String srcImgPath = "C:\\Users\\chaowie\\Desktop\\reward.png";    //源图片地址
-        String tarImgPath = "C:\\Users\\chaowie\\Desktop\\reward1.png";   //目标图片的地址
+        String srcImgPath = "D:\\A学习资料\\Java\\毕业设计\\scms_pic\\reward.png";    //源图片地址
+        String tarImgPath = "D:\\A学习资料\\Java\\毕业设计\\scms_pic\\"+"test"+".png";   //目标图片的地址
+        //        String tarImgPath = "C:\\Users\\chaowie\\Desktop\\reward1.png";   //目标图片的地址
         //==============================================================================
 
         //获取数据集合；
@@ -117,7 +118,7 @@ public class TestPic {
                 270, 690));
 
         //找到名字  的位置
-        list.add(createImageDTO("阿根廷", new Color(255, 6, 0, 255), new Font("微软雅黑", Font.BOLD, 52),
+        list.add(createImageDTO("管理员", new Color(255, 6, 0, 255), new Font("微软雅黑", Font.BOLD, 52),
                 265, 525));
 
         //找到赛事信息  的位置

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ashuo.scms.mapper.RewardMapper">
+
+    <resultMap type="com.ashuo.scms.entity.Reward" id="RewardMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="teamId" column="team_id" jdbcType="INTEGER"/>
+        <result property="userId" column="user_id" jdbcType="INTEGER"/>
+        <result property="imgUrl" column="img_url" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <select id="getRewardByIds" resultType="com.ashuo.scms.entity.Reward">
+        Select img_url from reward Where user_id=#{user.userId} or team_id=#{user.team.teamId}
+    </select>
+
+    <!--&lt;!&ndash;查询单个&ndash;&gt;-->
+    <!--<select id="queryById" resultMap="RewardMap">-->
+        <!--select-->
+          <!--id, team_id, user_id, img_url, create_time-->
+        <!--from reward-->
+        <!--where id = #{id}-->
+    <!--</select>-->
+
+    <!--&lt;!&ndash;查询指定行数据&ndash;&gt;-->
+    <!--<select id="queryAllByLimit" resultMap="RewardMap">-->
+        <!--select-->
+          <!--id, team_id, user_id, img_url, create_time-->
+        <!--from reward-->
+        <!--<where>-->
+            <!--<if test="id != null">-->
+                <!--and id = #{id}-->
+            <!--</if>-->
+            <!--<if test="teamId != null">-->
+                <!--and team_id = #{teamId}-->
+            <!--</if>-->
+            <!--<if test="userId != null">-->
+                <!--and user_id = #{userId}-->
+            <!--</if>-->
+            <!--<if test="imgUrl != null and imgUrl != ''">-->
+                <!--and img_url = #{imgUrl}-->
+            <!--</if>-->
+            <!--<if test="createTime != null">-->
+                <!--and create_time = #{createTime}-->
+            <!--</if>-->
+        <!--</where>-->
+        <!--limit #{pageable.offset}, #{pageable.pageSize}-->
+    <!--</select>-->
+
+    <!--&lt;!&ndash;统计总行数&ndash;&gt;-->
+    <!--<select id="count" resultType="java.lang.Long">-->
+        <!--select count(1)-->
+        <!--from reward-->
+        <!--<where>-->
+            <!--<if test="id != null">-->
+                <!--and id = #{id}-->
+            <!--</if>-->
+            <!--<if test="teamId != null">-->
+                <!--and team_id = #{teamId}-->
+            <!--</if>-->
+            <!--<if test="userId != null">-->
+                <!--and user_id = #{userId}-->
+            <!--</if>-->
+            <!--<if test="imgUrl != null and imgUrl != ''">-->
+                <!--and img_url = #{imgUrl}-->
+            <!--</if>-->
+            <!--<if test="createTime != null">-->
+                <!--and create_time = #{createTime}-->
+            <!--</if>-->
+        <!--</where>-->
+    <!--</select>-->
+
+    <!--&lt;!&ndash;新增所有列&ndash;&gt;-->
+    <!--<insert id="insert" keyProperty="id" useGeneratedKeys="true">-->
+        <!--insert into reward(team_id, user_id, img_url, create_time)-->
+        <!--values (#{teamId}, #{userId}, #{imgUrl}, #{createTime})-->
+    <!--</insert>-->
+
+    <!--<insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">-->
+        <!--insert into reward(team_id, user_id, img_url, create_time)-->
+        <!--values-->
+        <!--<foreach collection="entities" item="entity" separator=",">-->
+        <!--(#{entity.teamId}, #{entity.userId}, #{entity.imgUrl}, #{entity.createTime})-->
+        <!--</foreach>-->
+    <!--</insert>-->
+
+    <!--<insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">-->
+        <!--insert into reward(team_id, user_id, img_url, create_time)-->
+        <!--values-->
+        <!--<foreach collection="entities" item="entity" separator=",">-->
+            <!--(#{entity.teamId}, #{entity.userId}, #{entity.imgUrl}, #{entity.createTime})-->
+        <!--</foreach>-->
+        <!--on duplicate key update-->
+        <!--team_id = values(team_id),-->
+        <!--user_id = values(user_id),-->
+        <!--img_url = values(img_url),-->
+        <!--create_time = values(create_time)-->
+    <!--</insert>-->
+
+    <!--&lt;!&ndash;通过主键修改数据&ndash;&gt;-->
+    <!--<update id="update">-->
+        <!--update reward-->
+        <!--<set>-->
+            <!--<if test="teamId != null">-->
+                <!--team_id = #{teamId},-->
+            <!--</if>-->
+            <!--<if test="userId != null">-->
+                <!--user_id = #{userId},-->
+            <!--</if>-->
+            <!--<if test="imgUrl != null and imgUrl != ''">-->
+                <!--img_url = #{imgUrl},-->
+            <!--</if>-->
+            <!--<if test="createTime != null">-->
+                <!--create_time = #{createTime},-->
+            <!--</if>-->
+        <!--</set>-->
+        <!--where id = #{id}-->
+    <!--</update>-->
+
+    <!--通过主键删除-->
+    <!--<delete id="deleteById">-->
+        <!--delete from reward where id = #{id}-->
+    <!--</delete>-->
+
+</mapper>
+

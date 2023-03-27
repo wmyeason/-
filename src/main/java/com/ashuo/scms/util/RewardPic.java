@@ -3,6 +3,7 @@ package com.ashuo.scms.util;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang.StringUtils;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -14,6 +15,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 @Slf4j
 public class RewardPic {
@@ -91,14 +93,18 @@ public class RewardPic {
 
     /**
      * 调用这个静态方法:
+     * @param w
+     * @param aName
+     * @param seasonName
+     * @param raceName
      */
-    public static String DrawPic() {
-
+    public static String DrawPic(int w, String aName, String seasonName, String raceName) {
+        String uuid = UUID.randomUUID().toString().replaceAll("-", "");
         //=========================================自行发挥================================
         //todo 自己真实的地址:(如果项目中使用的阿里云,则自行改造'writeImage'方法,接受流对象就好了);
         //todo  图片保存本地  并且使用UUID给文件命名  并存入数据库中
-        String srcImgPath = "C:\\Users\\chaowie\\Desktop\\reward.png";    //源图片地址
-        String tarImgPath = "C:\\Users\\chaowie\\Desktop\\reward1.png";   //目标图片的地址
+        String srcImgPath = "D:\\A学习资料\\Java\\毕业设计\\scms_pic\\reward.png";    //源图片地址
+        String tarImgPath = "D:\\A学习资料\\Java\\毕业设计\\scms_pic\\"+uuid+".png";   //目标图片的地址
         //==============================================================================
 
         //获取数据集合；
@@ -111,19 +117,19 @@ public class RewardPic {
                 130, 750));
 
         //找 名次 的位置
-        list.add(createImageDTO("冠", new Color(4, 0, 2, 255), new Font("微软雅黑", Font.BOLD, 32),
+        list.add(createImageDTO(w==1?"冠":"亚", new Color(255, 14, 11, 255), new Font("微软雅黑", Font.BOLD, 32),
                 270, 690));
 
         //找到名字  的位置
-        list.add(createImageDTO("阿根廷", new Color(255, 6, 0, 255), new Font("微软雅黑", Font.BOLD, 52),
+        list.add(createImageDTO(aName, new Color(255, 6, 0, 255), new Font("微软雅黑", Font.BOLD, 52),
                 265, 525));
 
         //找到赛事信息  的位置
-        list.add(createImageDTO("第一节运动会", new Color(255, 40, 40, 255), new Font("微软雅黑", Font.PLAIN, 24),
+        list.add(createImageDTO(StringUtils.isEmpty(seasonName)?"友谊运动会":seasonName, new Color(255, 40, 40, 255), new Font("微软雅黑", Font.PLAIN, 24),
                 230, 610));
 
         //找到比赛项目信息  的位置
-        list.add(createImageDTO("足球比赛", new Color(255, 47, 47, 255), new Font("微软雅黑", Font.PLAIN, 24),
+        list.add(createImageDTO(raceName, new Color(255, 47, 47, 255), new Font("微软雅黑", Font.PLAIN, 24),
                 300, 640));
 //
         //操作图片:
@@ -131,7 +137,7 @@ public class RewardPic {
 
         //这句代码,自己项目中可以不用加,在这里防止main方法报错的;
         log.info("图片修改完成");
-        return tarImgPath;
+        return uuid+".png";
     }
 }
 

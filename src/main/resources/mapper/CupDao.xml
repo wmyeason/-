@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ashuo.scms.mapper.CupMapper">
+
+    <resultMap type="com.ashuo.scms.entity.Cup" id="CupMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="teamId" column="team_id" jdbcType="INTEGER"/>
+        <result property="teamName" column="team_name" jdbcType="VARCHAR"/>
+        <result property="type" column="type" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="CupMap">
+        select
+          id, team_id, team_name, type
+        from cup
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="CupMap">
+        select
+          id, team_id, team_name, type
+        from cup
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="teamId != null">
+                and team_id = #{teamId}
+            </if>
+            <if test="teamName != null and teamName != ''">
+                and team_name = #{teamName}
+            </if>
+            <if test="type != null">
+                and type = #{type}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from cup
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="teamId != null">
+                and team_id = #{teamId}
+            </if>
+            <if test="teamName != null and teamName != ''">
+                and team_name = #{teamName}
+            </if>
+            <if test="type != null">
+                and type = #{type}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into cup(team_id, team_name, type)
+        values (#{teamId}, #{teamName}, #{type})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into cup(team_id, team_name, type)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.teamId}, #{entity.teamName}, #{entity.type})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into cup(team_id, team_name, type)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.teamId}, #{entity.teamName}, #{entity.type})
+        </foreach>
+        on duplicate key update
+        team_id = values(team_id),
+        team_name = values(team_name),
+        type = values(type)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update cup
+        <set>
+            <if test="teamId != null">
+                team_id = #{teamId},
+            </if>
+            <if test="teamName != null and teamName != ''">
+                team_name = #{teamName},
+            </if>
+            <if test="type != null">
+                type = #{type},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from cup where id = #{id}
+    </delete>
+
+</mapper>
+
