@@ -16,6 +16,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.authz.annotation.RequiresAuthentication;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -57,7 +58,7 @@ public class AthleteController {
     public ServerResponse queryAthlete(QueryInfo queryInfo, Athlete athlete) {
 
         User user = ObjectUtils.isNull(athlete.getUser()) ? new User() : athlete.getUser();
-        if(Integer.valueOf(queryInfo.getQuery())!=-1)user.setNickname(queryInfo.getQuery());
+        if(!StringUtils.isEmpty(queryInfo.getQuery()) &&Integer.valueOf(queryInfo.getQuery())!=-1)user.setNickname(queryInfo.getQuery());
         athlete.setUser(user);
 
         if (athlete.getUser() != null && athlete.getUser().getUserId() != null) {
@@ -84,19 +85,6 @@ public class AthleteController {
                 //删除最后一个逗号
                 userNickname = userNickname.substring(0, userNickname.length() - 1);
                 a.getUser().setNickname(userNickname);
-            }
-        }
-        if(Integer.valueOf(queryInfo.getQuery())!=-1){
-            Iterator<Athlete> iterator=athleteList.getRecords().iterator();
-            while (iterator.hasNext()){
-                Athlete next = iterator.next();
-                if(next.getCheckStatus()!=1)iterator.remove();
-            }
-        }else{
-            Iterator<Athlete> iterator=athleteList.getRecords().iterator();
-            while (iterator.hasNext()){
-                Athlete next = iterator.next();
-                if(next.getCheckStatus()!=0)iterator.remove();
             }
         }
 
