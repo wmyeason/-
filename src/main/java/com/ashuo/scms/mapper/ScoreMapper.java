@@ -35,4 +35,5 @@ public interface ScoreMapper {
     //查询返回Dto对象
     IPage<AthleteScoreDto> queryAthleteScoreDto(Page<AthleteScoreDto> page, @Param("score") Score score);
 
+    int deleteScoreByAId(int athleteId);
 }

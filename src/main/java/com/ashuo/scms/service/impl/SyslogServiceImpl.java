@@ -9,9 +9,11 @@ import com.ashuo.scms.mapper.UserMapper;
 import com.ashuo.scms.service.SyslogService;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.io.File;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -33,6 +35,9 @@ public class SyslogServiceImpl implements SyslogService {
 
     @Autowired
     UserMapper userMapper;
+
+    @Autowired
+    PasswordEncoder passwordEncoder;
 
     @Override
     public Page<Syslog> getAllSyslog(Page<Syslog> page, Syslog syslog) {
@@ -61,7 +66,7 @@ public class SyslogServiceImpl implements SyslogService {
     }
 
     @Override
-    @Transactional
+    @Transactional(rollbackFor =  Exception.class)
     public boolean removeAllData() {
         //删除所有记录
         syslogMapper.deleteAllRecord();
@@ -81,6 +86,24 @@ public class SyslogServiceImpl implements SyslogService {
         syslogMapper.deleteAllTeam();
         //删除所有运动会
         syslogMapper.deleteAllSeason();
+        //删除所有加油稿
+        syslogMapper.deleteAllArticle();
+        //删除所有世界杯项目获奖记录
+        syslogMapper.deleteAllCup();
+        //删除所有世界杯比赛记录
+        syslogMapper.deleteAllRace();
+        //删除所有获奖记录
+        syslogMapper.deleteAllReward();
+        //删除所有世界杯参赛记录
+        syslogMapper.deleteAllWorld();
+
+        //删除荣誉图片
+        String tarImgPath = "D:\\A学习资料\\Java\\毕业设计\\scms_pic\\";
+        File directory=new File(tarImgPath);
+        File[] files = directory.listFiles();
+        for(File f:files){
+            if(!f.getName().equals("reward.png"))f.delete();
+        }
 
         //添加root用户,清空数据后用于登录系统
         Team rootTeam = new Team();
@@ -90,22 +113,51 @@ public class SyslogServiceImpl implements SyslogService {
         rootTeam.setEditTime(LocalDateTime.now());
         teamMapper.insertTeam(rootTeam);
 
-        User rootUser = new User();
-        rootUser.setUserId(1);
-        rootUser.setUserNo("17140809011");
-        rootUser.setNickname("AShuo");
-        rootUser.setUsername("ashuo");
-        rootUser.setPassword("e10adc3949ba59abbe56e057f20f883e");
-        rootUser.setUserSex("男");
-        rootUser.setUserType(1);
-        rootUser.setTeam(rootTeam);
-        rootUser.setPhone("1772726XXXX");
-        rootUser.setCreateTime(LocalDateTime.now());
-        rootUser.setEditTime(LocalDateTime.now());
-        userMapper.insertUser(rootUser);
+        Team normalTeam=new Team();
+        normalTeam.setTeamId(2);
+        normalTeam.setTeamName("东方");
+        normalTeam.setCreateTime(LocalDateTime.now());
+        normalTeam.setEditTime(LocalDateTime.now());
+        teamMapper.insertTeam(normalTeam);
+
+        Team judgeTeam=new Team();
+        judgeTeam.setTeamId(3);
+        judgeTeam.setTeamName("裁判团队");
+        judgeTeam.setCreateTime(LocalDateTime.now());
+        judgeTeam.setEditTime(LocalDateTime.now());
+        teamMapper.insertTeam(judgeTeam);
+
+        //添加默认管理员
+        addNewUser(1,"admin","admin",1,rootTeam);
+
+        //添加普通用户以及裁判
+        addNewUser(2,"朝伟","chaowei",3,normalTeam);
+        addNewUser(3,"德华","dehua",3,normalTeam);
+        addNewUser(4,"学友","xueyou",3,normalTeam);
+        addNewUser(5,"彦祖","yanzu",3,normalTeam);
+
+        addNewUser(6,"A裁判","judge",2,judgeTeam);
+
         //删除所有系统日志
         syslogMapper.deleteAllSyslog();
         return true;
+    }
+
+
+    //重置后添加普通用户
+    public void addNewUser(Integer id ,String nickName,String username,Integer type,Team team){
+        User normal=new User();
+        normal.setUserId(id);
+        normal.setNickname(nickName);
+        normal.setUsername(username);
+        normal.setPassword(passwordEncoder.encode("123456"));
+        normal.setUserSex("男");
+        normal.setUserType(type);
+        normal.setTeam(team);
+        normal.setPhone("1322726XXXX");
+        normal.setCreateTime(LocalDateTime.now());
+        normal.setEditTime(LocalDateTime.now());
+        userMapper.insertUser(normal);
     }
 
     //字符串去除null

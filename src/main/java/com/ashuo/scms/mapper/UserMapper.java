@@ -26,5 +26,5 @@ public interface UserMapper extends BaseMapper<User> {
 
     int updateUser(@Param("user") User user);
 
-    List<UserAndTeamDto> getNotLeader(List<Integer> list);
+    List<UserAndTeamDto> getNotLeader(@Param("list") List<Integer> list,@Param("teamId") Integer teamId);
 }

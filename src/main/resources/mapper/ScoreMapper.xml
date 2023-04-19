@@ -51,10 +51,10 @@
         WHERE score_id=#{scoreId}
     </update>
 
-    <delete id="deleteScore">
+    <delete id="deleteScoreByAId">
         delete
         from score
-        where score_id = #{scoreId}
+        where a_id = #{abc}
     </delete>
 
     <select id="queryScoreByScoreCondition" resultMap="scoreMap">
@@ -107,10 +107,16 @@
         s.score,
         s.a_id,
         a.athlete_id,
-        i.item_id
+        i.item_id,
+        i.item_name,
+        u.nickname,
+        u.user_id,
+        se.season_name
         FROM `score` s
         INNER JOIN `athlete` a ON s.a_id = a.athlete_id
         INNER JOIN `item` i ON a.i_id = i.item_id
+        INNER JOIN `user` u ON a.u_id = u.user_id
+        INNER JOIN `season` se ON i.se_id = se.season_id
         WHERE i.item_id = #{itemId}
         ORDER BY s.score
         ${condition}

@@ -28,7 +28,7 @@ public class LogAopController {
     @Autowired
     private SyslogService syslogService;
 
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     @Before("!execution(* com.ashuo.scms.service.SyslogService.*(..)) && execution(* com.ashuo.scms.service.*.add*(..))|| execution(* com.ashuo.scms.service.*.modify*(..)) || execution(* com.ashuo.scms.service.*.remove*(..)) ")
     public void doBefore(JoinPoint joinPoint) {
 

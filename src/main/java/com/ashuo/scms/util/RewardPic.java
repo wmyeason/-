@@ -117,7 +117,15 @@ public class RewardPic {
                 130, 750));
 
         //找 名次 的位置
-        list.add(createImageDTO(w==1?"冠":"亚", new Color(255, 14, 11, 255), new Font("微软雅黑", Font.BOLD, 32),
+        String paming="";
+        if(w==1){
+            paming="冠";
+        }else if(w==2){
+            paming="亚";
+        }else{
+            paming="季";
+        }
+        list.add(createImageDTO(paming, new Color(255, 14, 11, 255), new Font("微软雅黑", Font.BOLD, 32),
                 270, 690));
 
         //找到名字  的位置

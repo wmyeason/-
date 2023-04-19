@@ -13,5 +13,5 @@ import java.io.Serializable;
 @Accessors(chain =  true)
 public class UserAndTeamDto  implements Serializable {
     private Integer userId;
-    private String username;
+    private String nickname;
 }

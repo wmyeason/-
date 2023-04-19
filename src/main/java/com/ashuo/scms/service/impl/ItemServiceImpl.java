@@ -107,4 +107,8 @@ public class ItemServiceImpl implements ItemService {
         return item;
     }
 
+    @Override
+    public Item isStartItem(Integer itemId) {
+        return itemMapper.isStartItem(itemId);
+    }
 }

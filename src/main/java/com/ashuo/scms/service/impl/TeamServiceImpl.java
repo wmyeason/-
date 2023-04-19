@@ -97,4 +97,9 @@ public class TeamServiceImpl implements TeamService {
     public String getNameById(Integer tId) {
         return teamMapper.getNameById(tId);
     }
+
+    @Override
+    public List<Team> getAllTeams() {
+        return teamMapper.getAllTeams();
+    }
 }

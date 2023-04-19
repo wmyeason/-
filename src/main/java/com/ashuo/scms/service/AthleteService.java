@@ -26,4 +26,6 @@ public interface AthleteService {
 
 
     boolean passCheck(Integer id, Integer status);
+
+    Integer isGetReward(Integer itemId);
 }

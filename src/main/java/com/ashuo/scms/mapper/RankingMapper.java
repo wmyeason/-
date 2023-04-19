@@ -17,7 +17,7 @@ import java.util.List;
  */
 public interface RankingMapper {
     //增加单个Ranking
-    int insertRanking(List<Ranking> rankingList);
+    int insertRanking(List<Ranking> list);
 
     int deleteRankingByItemId(@Param("itemId") Integer itemId);
 
@@ -27,4 +27,5 @@ public interface RankingMapper {
     //返回个人排名和总积分
     IPage<Ranking> queryUserTotalRanking(Page<Ranking> page, @Param("ranking") Ranking ranking);
 
+    int deleteRankingByAId(int athleteId);
 }

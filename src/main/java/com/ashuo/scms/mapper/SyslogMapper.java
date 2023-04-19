@@ -47,4 +47,13 @@ public interface SyslogMapper {
     //删除所有运动会
     int deleteAllSeason();
 
+    int deleteAllArticle();
+
+    int deleteAllCup();
+
+    int deleteAllRace();
+
+    int deleteAllReward();
+
+    int deleteAllWorld();
 }

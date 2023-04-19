@@ -73,7 +73,7 @@ public class SyslogController {
     @ApiOperation("清空系统数据")
     @DeleteMapping("/resetAllData")
     @RequiresRoles(value = {"1"})
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     public ServerResponse resetAllData(String comfirmPassword) {
         if (!comfirmPassword.equals(meetYouYear)) {
             return ServerResponse.createByErrorCodeMessage(400, "密码输入错误");

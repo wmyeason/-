@@ -112,15 +112,15 @@ public class TeamController {
         //查出已经是领队了的UserID
         List<Integer> list= teamService.getLeaderId();
 
-        //查询所有用户  中  不是领队的用户
-        List<UserAndTeamDto> userAndTeamDtos= userService.getNotLeader(list);
+        //查询所有用户  中  不是领队的用户  并且属于当前团队的用户
+        List<UserAndTeamDto> userAndTeamDtos= userService.getNotLeader(list,teamCondition.getTeamId());
         //加上当前团队的领队用户  如果没选择就不加
         UserAndTeamDto user=new UserAndTeamDto();
         user.setUserId(-1);
         if(team.getLeaderId()!=-1){
             User byId = userService.getById(team.getLeaderId());
             user.setUserId(byId.getUserId());
-            user.setUsername(byId.getUsername());
+            user.setNickname(byId.getNickname());
             userAndTeamDtos.add(user);
         }
         teamGetDto.setUser(user);
@@ -154,6 +154,13 @@ public class TeamController {
             return ServerResponse.createByErrorCodeMessage(400, "修改失败");
         }
         return ServerResponse.createBySuccessMessage("修改成功");
+    }
+
+    @ApiOperation("注册时获取所有团体")
+    @GetMapping("/getAllTeams")
+    public ServerResponse getAllTeams(){
+        List<Team> teams= teamService.getAllTeams();
+        return ServerResponse.createBySuccess(teams);
     }
 }
 

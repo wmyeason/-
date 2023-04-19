@@ -36,4 +36,6 @@ public interface TeamMapper {
     Integer getTeamByName(String team);
 
     String getNameById(Integer tId);
+
+    List<Team> getAllTeams();
 }

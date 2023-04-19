@@ -29,4 +29,5 @@ public interface ItemService {
 
     Item getItemTemplateDetail(Item item);
 
+    Item isStartItem(Integer itemId);
 }

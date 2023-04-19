@@ -88,4 +88,25 @@
         DELETE
         FROM syslog
     </delete>
+
+    <delete id="deleteAllArticle">
+        delete from article
+    </delete>
+
+    <delete id="deleteAllCup">
+        delete from cup
+    </delete>
+
+    <update id="deleteAllRace">
+        update race set a_id =null ,a_score =null,a_name=null,b_id=null,b_name=null,b_score=null,
+        result=null,overtime=0
+    </update>
+
+    <delete id="deleteAllReward">
+        delete from reward
+    </delete>
+
+    <update id="deleteAllWorld">
+        update world set t_id=null, t_name = null, status=0
+    </update>
 </mapper>

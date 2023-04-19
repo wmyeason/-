@@ -30,13 +30,13 @@
 
 
     </resultMap>
-    <insert id="insertRanking" parameterType="list"
+    <insert id="insertRanking" parameterType="java.util.List"
             useGeneratedKeys="true" keyColumn="ranking_id" keyProperty="rankingId">
         INSERT INTO ranking ( a_id, `rank`, edit_time )
         VALUES
-        <foreach collection="list" item="ranking" index="index" open="(" separator="," close=")">
+        <foreach collection="list" item="ranking"  separator=",">
 
-            #{ranking.athlete.athleteId},#{ranking.rank},#{ranking.editTime}
+            (#{ranking.athlete.athleteId},#{ranking.rank},#{ranking.editTime})
 
         </foreach>
 
@@ -48,6 +48,9 @@
         INNER JOIN athlete a ON r.a_id = a.athlete_id
         INNER JOIN item i ON a.i_id = i.item_id
         WHERE i.item_id = #{itemId}
+    </delete>
+    <delete id="deleteRankingByAId">
+        delete from ranking where a_id=#{abc}
     </delete>
 
     <select id="queryTeamTotalRanking" resultMap="rankingMap">

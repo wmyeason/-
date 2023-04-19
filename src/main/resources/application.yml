@@ -27,7 +27,7 @@ mybatis-plus:
   mapper-locations: classpath:mapper/*.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-
+#重置系统的密码
 meet:
   you:
     year: 2023

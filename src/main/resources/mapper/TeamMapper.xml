@@ -58,5 +58,8 @@
     <select id="getNameById" resultType="java.lang.String" parameterType="java.lang.Integer">
         Select team_name From Team Where team_id = #{tId} Limit 1
     </select>
+    <select id="getAllTeams" resultType="com.ashuo.scms.entity.Team">
+        select team_id ,team_name from team where team_id!=1 and team_id!=3
+    </select>
 
 </mapper>

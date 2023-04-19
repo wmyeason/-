@@ -36,6 +36,9 @@
         INSERT INTO record(a_id, record_score, record_status, create_time, edit_time)
         VALUES (#{athlete.athleteId}, #{recordScore}, #{recordStatus}, #{createTime}, #{editTime})
     </insert>
+    <delete id="deleteRecoerdByAId">
+        delete from record where a_id=#{abc}
+    </delete>
 
     <select id="queryRecordByRecordCondition" resultMap="recordMap">
         SELECT

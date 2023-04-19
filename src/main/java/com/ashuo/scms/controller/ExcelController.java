@@ -1,6 +1,6 @@
 package com.ashuo.scms.controller;
 
-import cn.hutool.crypto.SecureUtil;
+
 import com.alibaba.excel.EasyExcel;
 import com.ashuo.scms.common.consant.Consant;
 import com.ashuo.scms.common.lang.ServerResponse;
@@ -22,6 +22,7 @@ import org.apache.shiro.authz.annotation.Logical;
 import org.apache.shiro.authz.annotation.RequiresAuthentication;
 import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -68,6 +69,9 @@ public class ExcelController {
 
     @Autowired
     HttpServletResponse response;
+
+    @Autowired
+    PasswordEncoder passwordEncoder;
 
     @ApiOperation("导出团体总分排名")
     @GetMapping("/exportTeamRanking")
@@ -140,7 +144,7 @@ public class ExcelController {
     public void exportPersonRanking(Ranking ranking) throws Exception {
         //设置主体风格
         XSSFWorkbook workbook = new XSSFWorkbook();
-        String[] columnNames = {"团体名称", "运动员学号", "姓名", "性别", "个人总分数"};
+        String[] columnNames = {"团体名称", "姓名", "性别", "个人总分数"};
         Sheet sheet = workbook.createSheet();
         Font titleFont = workbook.createFont();
         titleFont.setFontName("simsun");
@@ -182,14 +186,12 @@ public class ExcelController {
             Row dataRow = sheet.createRow(lastRowNum + 1);
             dataRow.createCell(0).setCellValue(excelPersonRankingDto.getTeamName());
             dataRow.getCell(0).setCellStyle(contentStyle);
-            dataRow.createCell(1).setCellValue(excelPersonRankingDto.getUserNo());
+            dataRow.createCell(1).setCellValue(excelPersonRankingDto.getUserName());
             dataRow.getCell(1).setCellStyle(contentStyle);
-            dataRow.createCell(2).setCellValue(excelPersonRankingDto.getUserName());
+            dataRow.createCell(2).setCellValue(excelPersonRankingDto.getUserSex());
             dataRow.getCell(2).setCellStyle(contentStyle);
-            dataRow.createCell(3).setCellValue(excelPersonRankingDto.getUserSex());
+            dataRow.createCell(3).setCellValue(excelPersonRankingDto.getRank());
             dataRow.getCell(3).setCellStyle(contentStyle);
-            dataRow.createCell(4).setCellValue(excelPersonRankingDto.getRank());
-            dataRow.getCell(4).setCellStyle(contentStyle);
         }
         response.setContentType("application/vnd.ms-excel");
         response.setHeader("content-Disposition", "attachment;filename=" + URLEncoder.encode("个人总分排名.xlsx", "utf-8"));
@@ -206,7 +208,7 @@ public class ExcelController {
     public void exportAllPersonScore(Score score) throws Exception {
         //设置主体风格
         XSSFWorkbook workbook = new XSSFWorkbook();
-        String[] columnNames = {"运动会", "团体名称", "学号", "姓名", "性别", "参赛项目", "项目分数", "是否破纪录", "记分员", "分数最后修改时间"};
+        String[] columnNames = {"运动会", "团体名称",  "姓名", "性别", "参赛项目", "项目分数", "是否破纪录", "记分员", "分数最后修改时间"};
         Sheet sheet = workbook.createSheet();
         Font titleFont = workbook.createFont();
         titleFont.setFontName("simsun");
@@ -248,22 +250,20 @@ public class ExcelController {
             dataRow.getCell(0).setCellStyle(contentStyle);
             dataRow.createCell(1).setCellValue(as.getTeamName());
             dataRow.getCell(1).setCellStyle(contentStyle);
-            dataRow.createCell(2).setCellValue(as.getUserNo());
+            dataRow.createCell(2).setCellValue(as.getNickname());
             dataRow.getCell(2).setCellStyle(contentStyle);
-            dataRow.createCell(3).setCellValue(as.getNickname());
+            dataRow.createCell(3).setCellValue(as.getUserSex());
             dataRow.getCell(3).setCellStyle(contentStyle);
-            dataRow.createCell(4).setCellValue(as.getUserSex());
+            dataRow.createCell(4).setCellValue(as.getItemName());
             dataRow.getCell(4).setCellStyle(contentStyle);
-            dataRow.createCell(5).setCellValue(as.getItemName());
+            dataRow.createCell(5).setCellValue(scoreStr);
             dataRow.getCell(5).setCellStyle(contentStyle);
-            dataRow.createCell(6).setCellValue(scoreStr);
+            dataRow.createCell(6).setCellValue("0".equals(as.getIsBreakRecord()) ? "否" : "是");
             dataRow.getCell(6).setCellStyle(contentStyle);
-            dataRow.createCell(7).setCellValue("0".equals(as.getIsBreakRecord()) ? "否" : "是");
+            dataRow.createCell(7).setCellValue(as.getScorer());
             dataRow.getCell(7).setCellStyle(contentStyle);
-            dataRow.createCell(8).setCellValue(as.getScorer());
+            dataRow.createCell(8).setCellValue(DateFormatterUtil.dateToString(as.getEditTime()));
             dataRow.getCell(8).setCellStyle(contentStyle);
-            dataRow.createCell(9).setCellValue(DateFormatterUtil.dateToString(as.getEditTime()));
-            dataRow.getCell(9).setCellStyle(contentStyle);
         }
 
         response.setContentType("application/vnd.ms-excel");
@@ -282,7 +282,7 @@ public class ExcelController {
     public void exportItemAthlete(Athlete athlete) throws Exception {
         //设置主体风格
         XSSFWorkbook workbook = new XSSFWorkbook();
-        String[] columnNames = {"序号", "参赛项目", "运动员团体", "运动员学号", "姓名", "性别", "项目地点", "记分员"};
+        String[] columnNames = {"序号", "参赛项目", "运动员团体",  "姓名", "性别", "项目地点", "记分员"};
         Sheet sheet = workbook.createSheet();
         Font titleFont = workbook.createFont();
         titleFont.setFontName("simsun");
@@ -325,16 +325,14 @@ public class ExcelController {
             dataRow.getCell(1).setCellStyle(contentStyle);
             dataRow.createCell(2).setCellValue(as.getUser().getTeam().getTeamName());
             dataRow.getCell(2).setCellStyle(contentStyle);
-            dataRow.createCell(3).setCellValue(as.getUser().getUserNo());
+            dataRow.createCell(3).setCellValue(as.getUser().getNickname());
             dataRow.getCell(3).setCellStyle(contentStyle);
-            dataRow.createCell(4).setCellValue(as.getUser().getNickname());
+            dataRow.createCell(4).setCellValue(as.getUser().getUserSex());
             dataRow.getCell(4).setCellStyle(contentStyle);
-            dataRow.createCell(5).setCellValue(as.getUser().getUserSex());
+            dataRow.createCell(5).setCellValue(as.getItem().getItemPlace());
             dataRow.getCell(5).setCellStyle(contentStyle);
-            dataRow.createCell(6).setCellValue(as.getItem().getItemPlace());
+            dataRow.createCell(6).setCellValue(as.getItem().getUser().getNickname());
             dataRow.getCell(6).setCellStyle(contentStyle);
-            dataRow.createCell(7).setCellValue(as.getItem().getUser().getNickname());
-            dataRow.getCell(7).setCellStyle(contentStyle);
             fileName = as.getItem().getItemName() + "(" + as.getItem().getItemSex() + ")";
         }
         response.setContentType("application/vnd.ms-excel");
@@ -431,7 +429,7 @@ public class ExcelController {
     public void exportExcelTemplate() throws Exception {
         //设置主体风格
         XSSFWorkbook workbook = new XSSFWorkbook();
-        String[] columnNames = {"团体名称", "运动员学号", "姓名", "性别", "账号", "密码", "用户类型(管理员、记分员、运动员)", "电话"};
+        String[] columnNames = {"团体名称",  "姓名", "性别", "账号", "密码",  "电话"};
         Sheet sheet = workbook.createSheet();
         Font titleFont = workbook.createFont();
         titleFont.setFontName("simsun");
@@ -462,7 +460,7 @@ public class ExcelController {
 
     }
 
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     @ApiOperation("/批量添加用户")
     @PostMapping("importUser")
     @RequiresRoles(value = {"1"})
@@ -480,27 +478,20 @@ public class ExcelController {
             } else {
                 user.setTeam(tempTeam);
             }
-            //  user去重(userNo)
-            user.setUserNo(u.getUserNo());
-            if (userService.getOne(new QueryWrapper<User>().eq("user_no", user.getUserNo())) != null) {
+            //  user去重(userName)
+            user.setUsername(u.getUsername());
+            if (userService.getOne(new QueryWrapper<User>().eq("username", user.getUsername())) != null) {
                 continue;
             }
 
             user.setNickname(u.getNickname());
-            user.setUsername(u.getUsername());
-            user.setPassword(SecureUtil.md5(u.getPassword()));
+            user.setPassword(passwordEncoder.encode(u.getPassword()));
             user.setUserSex(u.getUserSex());
             user.setPhone(u.getPhone());
             user.setCreateTime(LocalDateTime.now());
             user.setEditTime(LocalDateTime.now());
 
-            if ("管理员".equals(u.getUserType())) {
-                user.setUserType(1);
-            } else if ("记分员".equals(u.getUserType())) {
-                user.setUserType(2);
-            } else {
-                user.setUserType(3);
-            }
+            user.setUserType(3);
             userService.addUser(user);
         }
         return ServerResponse.createBySuccess(userDtoList);

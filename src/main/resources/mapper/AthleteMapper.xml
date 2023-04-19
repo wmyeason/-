@@ -119,6 +119,7 @@
         DESC
     </select>
 
+
     <update id="updateAthlete" parameterType="com.ashuo.scms.entity.Athlete">
         UPDATE athlete
         <set>
@@ -138,5 +139,9 @@
         FROM athlete
         WHERE athlete_id = #{athleteId}
     </delete>
+
+    <select id="countPeos" resultType="java.lang.Integer">
+        select count(i_id) from athlete where i_id=#{abc} and score_status=0
+    </select>
 
 </mapper>

@@ -96,12 +96,19 @@
 
     </select>
 
-    <select id="getNotLeader" resultType="com.ashuo.scms.dto.UserAndTeamDto" parameterType="java.util.List">
-        Select user_id , username From User
-        Where user_id not in
-            <foreach collection="list" item="i" open="(" close=")" separator=",">
-              #{i}
-            </foreach>
+    <select id="getNotLeader" resultType="com.ashuo.scms.dto.UserAndTeamDto">
+        Select user_id , nickname From User
+        <where>
+            <if test="list!=null and list.size()>0">
+                and  user_id not in
+                <foreach collection="list" item="i" open="(" close=")" separator=",">
+                    #{i}
+                </foreach>
+            </if>
+            <if test="teamId!=null and teamId != ''">
+                and t_id=#{teamId}
+            </if>
+        </where>
     </select>
 
 </mapper>

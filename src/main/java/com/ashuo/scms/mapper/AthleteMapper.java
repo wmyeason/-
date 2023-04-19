@@ -26,4 +26,5 @@ public interface AthleteMapper {
     int deleteAthlete(int athleteId);
 
 
+    Integer countPeos(Integer itemId);
 }

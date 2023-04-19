@@ -12,24 +12,18 @@ public class ExcelUserDto implements Serializable {
     @ExcelProperty(value = "团体名称", index = 0)
     private String teamName;
 
-    @ExcelProperty(value = "学号", index = 1)
-    private String userNo;
-
-    @ExcelProperty(value = "姓名", index = 2)
+    @ExcelProperty(value = "姓名", index = 1)
     private String nickname;
 
-    @ExcelProperty(value = "性别", index = 3)
+    @ExcelProperty(value = "性别", index = 2)
     private String userSex;
 
-    @ExcelProperty(value = "账号", index = 4)
+    @ExcelProperty(value = "账号", index = 3)
     private String username;
 
-    @ExcelProperty(value = "密码", index = 5)
+    @ExcelProperty(value = "密码", index = 4)
     private String password;
 
-    @ExcelProperty(value = "用户类型", index = 6)
-    private String userType;
-
-    @ExcelProperty(value = "电话", index = 7)
+    @ExcelProperty(value = "电话", index = 5)
     private String phone;
 }

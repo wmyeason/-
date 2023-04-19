@@ -58,7 +58,7 @@ public class AthleteController {
     public ServerResponse queryAthlete(QueryInfo queryInfo, Athlete athlete) {
 
         User user = ObjectUtils.isNull(athlete.getUser()) ? new User() : athlete.getUser();
-        if(!StringUtils.isEmpty(queryInfo.getQuery()) &&Integer.valueOf(queryInfo.getQuery())!=-1)user.setNickname(queryInfo.getQuery());
+        if(!StringUtils.isEmpty(queryInfo.getQuery()))user.setNickname(queryInfo.getQuery());
         athlete.setUser(user);
 
         if (athlete.getUser() != null && athlete.getUser().getUserId() != null) {
@@ -189,9 +189,13 @@ public class AthleteController {
 
     @ApiOperation("通过审核")
     @GetMapping("/passCheck")
+    @Transactional(rollbackFor = Exception.class)
     public ServerResponse passCheck(Integer id,Integer status){
         //执行通过 未通过 设置
-        athleteService.passCheck(id, status);
+        boolean b = athleteService.passCheck(id, status);
+        if(!b){
+            return  ServerResponse.createByErrorMessage("审核状态设置失败。");
+        }
         return ServerResponse.createBySuccess();
     }
 

@@ -98,7 +98,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     }
 
     @Override
-    public List<UserAndTeamDto> getNotLeader(List<Integer> list) {
-        return userMapper.getNotLeader(list);
+    public List<UserAndTeamDto> getNotLeader(List<Integer> list, Integer teamId) {
+        return userMapper.getNotLeader(list,teamId);
     }
 }

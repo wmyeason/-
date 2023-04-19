@@ -38,4 +38,5 @@ public interface ItemMapper {
     Item queryItemTemplateDetail(@Param("item") Item item);
 
 
+    Item isStartItem(Integer itemId);
 }

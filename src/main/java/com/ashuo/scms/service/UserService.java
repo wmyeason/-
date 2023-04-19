@@ -30,5 +30,5 @@ public interface UserService extends IService<User> {
 
     boolean toReSetPass(User user);
 
-    List<UserAndTeamDto> getNotLeader(List<Integer> list);
+    List<UserAndTeamDto> getNotLeader(List<Integer> list, Integer teamId);
 }

@@ -25,4 +25,5 @@ public interface RecordMapper extends BaseMapper<Record> {
     IPage<Record> queryRecordByRecordCondition(Page<Record> page, @Param("record") Record record);
 
 
+    int deleteRecoerdByAId(int athleteId);
 }

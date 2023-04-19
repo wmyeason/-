@@ -165,4 +165,8 @@
             AND parent_id IS NULL
         </where>
     </select>
+
+    <select id="isStartItem" parameterType="java.lang.Integer" resultMap="itemMap">
+        select start_time from item where item_id  = #{abc} limit 1
+    </select>
 </mapper>
