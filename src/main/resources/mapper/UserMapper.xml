@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ashuo.scms.mapper.UserMapper">
-    <resultMap id="userMap" type="com.ashuo.scms.entity.User">
+<mapper namespace="com.wmy.scms.mapper.UserMapper">
+    <resultMap id="userMap" type="com.wmy.scms.entity.User">
         <id column="user_id" property="userId"/>
         <result column="user_no" property="userNo"/>
         <result column="nickname" property="nickname"/>
@@ -12,7 +12,7 @@
         <result column="phone" property="phone"/>
         <result column="create_time" property="createTime"/>
         <result column="edit_time" property="editTime"/>
-        <association property="team" javaType="com.ashuo.scms.entity.Team">
+        <association property="team" javaType="com.wmy.scms.entity.Team">
             <result column="team_id" property="teamId"/>
             <result column="team_name" property="teamName"/>
             <result column="leader_id" property="leaderId"/>
@@ -20,7 +20,7 @@
     </resultMap>
 
 
-    <insert id="insertUser" parameterType="com.ashuo.scms.entity.User"
+    <insert id="insertUser" parameterType="com.wmy.scms.entity.User"
             useGeneratedKeys="true" keyColumn="user_id" keyProperty="userId">
         INSERT INTO user(
         <if test="userId!=null and userId!=0">
@@ -43,7 +43,7 @@
     </delete>
 
 
-    <update id="updateUser" parameterType="com.ashuo.scms.entity.User">
+    <update id="updateUser" parameterType="com.wmy.scms.entity.User">
         UPDATE user
         <set>
             <if test="user.userNo!=null">user_no=#{user.userNo},</if>
@@ -96,7 +96,7 @@
 
     </select>
 
-    <select id="getNotLeader" resultType="com.ashuo.scms.dto.UserAndTeamDto">
+    <select id="getNotLeader" resultType="com.wmy.scms.dto.UserAndTeamDto">
         Select user_id , nickname From User
         <where>
             <if test="list!=null and list.size()>0">

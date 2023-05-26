@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ashuo.scms.mapper.SyslogMapper">
-    <resultMap id="syslogMap" type="com.ashuo.scms.entity.Syslog">
+<mapper namespace="com.wmy.scms.mapper.SyslogMapper">
+    <resultMap id="syslogMap" type="com.wmy.scms.entity.Syslog">
         <id column="syslog_id" property="syslogId"/>
         <result column="execution_time" property="executionTime"/>
         <result column="method" property="method"/>
         <result column="parameter" property="parameter"/>
-        <association property="executionUser" javaType="com.ashuo.scms.entity.User">
+        <association property="executionUser" javaType="com.wmy.scms.entity.User">
             <id column="execution_uid" property="userId"/>
             <result column="nickname" property="nickname"/>
             <result column="user_type" property="userType"/>
@@ -14,7 +14,7 @@
     </resultMap>
 
 
-    <insert id="insertSyslog" parameterType="com.ashuo.scms.entity.Syslog"
+    <insert id="insertSyslog" parameterType="com.wmy.scms.entity.Syslog"
             useGeneratedKeys="true" keyColumn="syslog_id" keyProperty="syslogId">
         INSERT INTO syslog(execution_time, execution_uid, method, parameter)
         VALUES (#{executionTime}, #{executionUser.userId}, #{method}, #{parameter})

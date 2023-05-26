@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ashuo.scms.mapper.AthleteMapper">
-    <resultMap id="athleteMap" type="com.ashuo.scms.entity.Athlete">
+<mapper namespace="com.wmy.scms.mapper.AthleteMapper">
+    <resultMap id="athleteMap" type="com.wmy.scms.entity.Athlete">
         <id column="athlete_id" property="athleteId"/>
         <result column="user_ids" property="userIds"/>
         <result column="score_status" property="scoreStatus"/>
         <result column="sign_time" property="signTime"/>
         <result column="check_status" property="checkStatus"/>
-        <association property="user" javaType="com.ashuo.scms.entity.User">
+        <association property="user" javaType="com.wmy.scms.entity.User">
             <id column="user_id" property="userId"/>
             <result column="user_no" property="userNo"/>
             <result column="user_sex" property="userSex"/>
             <result column="nickname" property="nickname"/>
-            <association property="team" javaType="com.ashuo.scms.entity.Team">
+            <association property="team" javaType="com.wmy.scms.entity.Team">
                 <result column="team_id" property="teamId"/>
                 <result column="team_name" property="teamName"/>
             </association>
         </association>
-        <association property="item" javaType="com.ashuo.scms.entity.Item">
+        <association property="item" javaType="com.wmy.scms.entity.Item">
             <id column="item_id" property="itemId"/>
             <result column="item_name" property="itemName"/>
             <result column="item_sex" property="itemSex"/>
@@ -25,12 +25,12 @@
             <result column="item_unit" property="itemUnit"/>
             <result column="start_time" property="startTime"/>
             <result column="end_time" property="endTime"/>
-            <association property="season" javaType="com.ashuo.scms.entity.Season">
+            <association property="season" javaType="com.wmy.scms.entity.Season">
                 <id column="se_id" property="seasonId"/>
                 <result column="season_name" property="seasonName"/>
                 <result column="season_status" property="seasonStatus"/>
             </association>
-            <association property="user" javaType="com.ashuo.scms.entity.User">
+            <association property="user" javaType="com.wmy.scms.entity.User">
                 <id column="u_id" property="userId"/>
                 <result column="scorer" property="nickname"/>
             </association>
@@ -38,7 +38,7 @@
     </resultMap>
 
 
-    <resultMap id="personScore" type="com.ashuo.scms.dto.AthleteScoreDto">
+    <resultMap id="personScore" type="com.wmy.scms.dto.AthleteScoreDto">
         <result column="team_name" property="teamName"/>
         <result column="user_no" property="userNo"/>
         <result column="nickname" property="nickname"/>
@@ -47,7 +47,7 @@
         <result column="score" property="score"/>
     </resultMap>
 
-    <insert id="insertAthlete" parameterType="com.ashuo.scms.entity.Athlete"
+    <insert id="insertAthlete" parameterType="com.wmy.scms.entity.Athlete"
             useGeneratedKeys="true" keyColumn="athlete_id" keyProperty="athleteId">
         INSERT INTO athlete(u_id, user_ids, i_id, score_status, sign_time)
         VALUES (#{user.userId}, #{userIds}, #{item.itemId}, #{scoreStatus}, #{signTime})
@@ -120,7 +120,7 @@
     </select>
 
 
-    <update id="updateAthlete" parameterType="com.ashuo.scms.entity.Athlete">
+    <update id="updateAthlete" parameterType="com.wmy.scms.entity.Athlete">
         UPDATE athlete
         <set>
             <if test="scoreStatus!=null and scoreStatus!=-1">score_status=#{scoreStatus},</if>

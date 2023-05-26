@@ -1145,46 +1145,48 @@
     <table id="290" parent="12" name="athlete">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="291" parent="12" name="item">
+    <table id="291" parent="12" name="cup"/>
+    <table id="292" parent="12" name="item">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="292" parent="12" name="mainmenu">
+    <table id="293" parent="12" name="mainmenu">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="293" parent="12" name="race"/>
-    <table id="294" parent="12" name="ranking">
+    <table id="294" parent="12" name="race"/>
+    <table id="295" parent="12" name="ranking">
       <Collation>latin1_swedish_ci</Collation>
     </table>
-    <table id="295" parent="12" name="record">
+    <table id="296" parent="12" name="record">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="296" parent="12" name="score">
+    <table id="297" parent="12" name="reward"/>
+    <table id="298" parent="12" name="score">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="297" parent="12" name="season">
+    <table id="299" parent="12" name="season">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="298" parent="12" name="submenu">
+    <table id="300" parent="12" name="submenu">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="299" parent="12" name="syslog">
+    <table id="301" parent="12" name="syslog">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="300" parent="12" name="team">
+    <table id="302" parent="12" name="team">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="301" parent="12" name="user">
+    <table id="303" parent="12" name="user">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="302" parent="12" name="world"/>
-    <column id="303" parent="288" name="users_name">
+    <table id="304" parent="12" name="world"/>
+    <column id="305" parent="288" name="users_name">
       <Position>1</Position>
       <Comment>用户姓名</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="304" parent="288" name="users_stnumber">
+    <column id="306" parent="288" name="users_stnumber">
       <Position>2</Position>
       <Comment>用户学号</Comment>
       <DataType>bigint|0s</DataType>
@@ -1192,91 +1194,91 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="305" parent="288" name="users_sex">
+    <column id="307" parent="288" name="users_sex">
       <Position>3</Position>
       <Comment>用户性别   男0  女 1</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="306" parent="288" name="users_phone">
+    <column id="308" parent="288" name="users_phone">
       <Position>4</Position>
       <Comment>用户电话</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="307" parent="288" name="users_pwd">
+    <column id="309" parent="288" name="users_pwd">
       <Position>5</Position>
       <Comment>密码</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="308" parent="288" name="college_name">
+    <column id="310" parent="288" name="college_name">
       <Position>6</Position>
       <Comment>学院</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="309" parent="288" name="users_url">
+    <column id="311" parent="288" name="users_url">
       <Position>7</Position>
       <Comment>头像保存路径</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="310" parent="288" name="users_email">
+    <column id="312" parent="288" name="users_email">
       <Position>8</Position>
       <Comment>邮箱</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="311" parent="288" name="PRIMARY">
+    <key id="313" parent="288" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>users_stnumber</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="312" parent="289" name="id">
+    <column id="314" parent="289" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="313" parent="289" name="u_id">
+    <column id="315" parent="289" name="u_id">
       <Position>2</Position>
       <Comment>当前登录用户ID</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="314" parent="289" name="content">
+    <column id="316" parent="289" name="content">
       <Position>3</Position>
       <Comment>加油稿内容</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="315" parent="289" name="s_id">
+    <column id="317" parent="289" name="s_id">
       <Position>4</Position>
       <Comment>对那届发布的  0表示所有</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="316" parent="289" name="create_time">
+    <column id="318" parent="289" name="create_time">
       <Position>5</Position>
       <Comment>发布时间</Comment>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="317" parent="289" name="PRIMARY">
+    <key id="319" parent="289" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="318" parent="290" name="athlete_id">
+    <column id="320" parent="290" name="athlete_id">
       <Position>1</Position>
       <Comment>运动员ID</Comment>
       <DataType>int|0s</DataType>
@@ -1284,69 +1286,101 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="319" parent="290" name="u_id">
+    <column id="321" parent="290" name="u_id">
       <Position>2</Position>
       <Comment>用户ID</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="320" parent="290" name="user_ids">
+    <column id="322" parent="290" name="user_ids">
       <Position>3</Position>
       <Comment>多人项目运动员ID</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="321" parent="290" name="i_id">
+    <column id="323" parent="290" name="i_id">
       <Position>4</Position>
       <Comment>项目ID</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="322" parent="290" name="score_status">
+    <column id="324" parent="290" name="score_status">
       <Position>5</Position>
       <Comment>分数是否录入(0未录入，1已录入）</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="323" parent="290" name="sign_time">
+    <column id="325" parent="290" name="sign_time">
       <Position>6</Position>
       <Comment>报名时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="324" parent="290" name="check_status">
+    <column id="326" parent="290" name="check_status">
       <Position>7</Position>
       <Comment>审核状态  0 审核中  1 已通过  -1  未通过</Comment>
       <DataType>int|0s</DataType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="325" parent="290" name="u_id">
+    <index id="327" parent="290" name="u_id">
       <ColNames>u_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="326" parent="290" name="i_id">
+    <index id="328" parent="290" name="i_id">
       <ColNames>i_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="327" parent="290" name="PRIMARY">
+    <key id="329" parent="290" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>athlete_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="328" parent="290" name="athlete_ibfk_1">
+    <foreign-key id="330" parent="290" name="athlete_ibfk_1">
       <ColNames>u_id</ColNames>
       <RefSchemaName>scms</RefSchemaName>
       <RefTableName>user</RefTableName>
       <RefColNames>user_id</RefColNames>
     </foreign-key>
-    <foreign-key id="329" parent="290" name="athlete_ibfk_2">
+    <foreign-key id="331" parent="290" name="athlete_ibfk_2">
       <ColNames>i_id</ColNames>
       <RefSchemaName>scms</RefSchemaName>
       <RefTableName>item</RefTableName>
       <RefColNames>item_id</RefColNames>
     </foreign-key>
-    <column id="330" parent="291" name="item_id">
+    <column id="332" parent="291" name="id">
+      <Position>1</Position>
+      <Comment>自增主键</Comment>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="333" parent="291" name="team_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="334" parent="291" name="team_name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="335" parent="291" name="type">
+      <Position>4</Position>
+      <Comment>冠军还是亚军   0亚军  1 是冠军</Comment>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="336" parent="291" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="337" parent="292" name="item_id">
       <Position>1</Position>
       <Comment>项目ID</Comment>
       <DataType>int|0s</DataType>
@@ -1354,32 +1388,32 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="331" parent="291" name="parent_id">
+    <column id="338" parent="292" name="parent_id">
       <Position>2</Position>
       <Comment>父项目ID</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="332" parent="291" name="se_id">
+    <column id="339" parent="292" name="se_id">
       <Position>3</Position>
       <Comment>届时ID</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="333" parent="291" name="u_id">
+    <column id="340" parent="292" name="u_id">
       <Position>4</Position>
       <Comment>用户ID</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="334" parent="291" name="item_name">
+    <column id="341" parent="292" name="item_name">
       <Position>5</Position>
       <Comment>项目名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="335" parent="291" name="item_unit">
+    <column id="342" parent="292" name="item_unit">
       <Position>6</Position>
       <Comment>项目分数单位</Comment>
       <DataType>varchar(255)|0s</DataType>
@@ -1387,85 +1421,85 @@
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_bin</Collation>
     </column>
-    <column id="336" parent="291" name="item_place">
+    <column id="343" parent="292" name="item_place">
       <Position>7</Position>
       <Comment>项目地点</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="337" parent="291" name="item_sex">
+    <column id="344" parent="292" name="item_sex">
       <Position>8</Position>
       <Comment>项目性别</Comment>
       <DataType>varchar(2)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="338" parent="291" name="item_amount">
+    <column id="345" parent="292" name="item_amount">
       <Position>9</Position>
       <Comment>项目报名规定人数</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="339" parent="291" name="athlete_amount">
+    <column id="346" parent="292" name="athlete_amount">
       <Position>10</Position>
       <Comment>项目参赛运动员人数</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="340" parent="291" name="start_time">
+    <column id="347" parent="292" name="start_time">
       <Position>11</Position>
       <Comment>项目开始时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="341" parent="291" name="end_time">
+    <column id="348" parent="292" name="end_time">
       <Position>12</Position>
       <Comment>项目结束时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="342" parent="291" name="create_time">
+    <column id="349" parent="292" name="create_time">
       <Position>13</Position>
       <Comment>创建时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="343" parent="291" name="edit_time">
+    <column id="350" parent="292" name="edit_time">
       <Position>14</Position>
       <Comment>修改时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="344" parent="291" name="se_id">
+    <index id="351" parent="292" name="se_id">
       <ColNames>se_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="345" parent="291" name="u_id">
+    <index id="352" parent="292" name="u_id">
       <ColNames>u_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="346" parent="291" name="item_name">
+    <index id="353" parent="292" name="item_name">
       <ColNames>item_name</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="347" parent="291" name="PRIMARY">
+    <key id="354" parent="292" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>item_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="348" parent="291" name="item_ibfk_2">
+    <foreign-key id="355" parent="292" name="item_ibfk_2">
       <ColNames>se_id</ColNames>
       <RefSchemaName>scms</RefSchemaName>
       <RefTableName>season</RefTableName>
       <RefColNames>season_id</RefColNames>
     </foreign-key>
-    <foreign-key id="349" parent="291" name="item_ibfk_1">
+    <foreign-key id="356" parent="292" name="item_ibfk_1">
       <ColNames>u_id</ColNames>
       <RefSchemaName>scms</RefSchemaName>
       <RefTableName>user</RefTableName>
       <RefColNames>user_id</RefColNames>
     </foreign-key>
-    <column id="350" parent="292" name="mainmenu_id">
+    <column id="357" parent="293" name="mainmenu_id">
       <Position>1</Position>
       <Comment>主菜单ID</Comment>
       <DataType>int|0s</DataType>
@@ -1473,33 +1507,33 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="351" parent="292" name="title">
+    <column id="358" parent="293" name="title">
       <Position>2</Position>
       <Comment>主菜单标题</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="352" parent="292" name="path">
+    <column id="359" parent="293" name="path">
       <Position>3</Position>
       <Comment>主菜单URL路径</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="353" parent="292" name="type">
+    <column id="360" parent="293" name="type">
       <Position>4</Position>
       <Comment>菜单类型(0所有人可见、1管理员可见、2记分员可见、3运动员可见)</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="354" parent="292" name="PRIMARY">
+    <key id="361" parent="293" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>mainmenu_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="355" parent="293" name="id">
+    <column id="362" parent="294" name="id">
       <Position>1</Position>
       <Comment>表是第几场比赛&#xd;
 1-8是16强&#xd;
@@ -1511,38 +1545,58 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="356" parent="293" name="a_id">
+    <column id="363" parent="294" name="a_id">
       <Position>2</Position>
       <Comment>左边比赛队伍的ID</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="357" parent="293" name="a_name">
+    <column id="364" parent="294" name="a_name">
       <Position>3</Position>
       <Comment>左边比赛队伍名字</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="358" parent="293" name="b_id">
+    <column id="365" parent="294" name="a_score">
       <Position>4</Position>
+      <Comment>左边比分  可以记录加时比分</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="366" parent="294" name="b_id">
+      <Position>5</Position>
       <Comment>右边比赛队伍的Id</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="359" parent="293" name="b_name">
-      <Position>5</Position>
+    <column id="367" parent="294" name="b_name">
+      <Position>6</Position>
       <Comment>右边比赛队伍名字</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="360" parent="293" name="result">
-      <Position>6</Position>
-      <Comment>比赛结果</Comment>
+    <column id="368" parent="294" name="b_score">
+      <Position>7</Position>
+      <Comment>右边比分   </Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="361" parent="293" name="status">
-      <Position>7</Position>
+    <column id="369" parent="294" name="result">
+      <Position>8</Position>
+      <Comment>比赛结果  左边还是右边获胜</Comment>
+      <DataType>int|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="370" parent="294" name="overtime">
+      <Position>9</Position>
+      <Comment>是否有加时   默认0没有   1才有</Comment>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="371" parent="294" name="status">
+      <Position>10</Position>
       <Comment>比赛状态&#xd;
 -1表示未计分&#xd;
 1表示出成绩了</Comment>
@@ -1551,12 +1605,12 @@
       <DefaultExpression>&apos;-1&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="362" parent="293" name="PRIMARY">
+    <key id="372" parent="294" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="363" parent="294" name="ranking_id">
+    <column id="373" parent="295" name="ranking_id">
       <Position>1</Position>
       <Comment>排名ID</Comment>
       <DataType>int|0s</DataType>
@@ -1564,41 +1618,41 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="364" parent="294" name="a_id">
+    <column id="374" parent="295" name="a_id">
       <Position>2</Position>
       <Comment>运动员ID</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="365" parent="294" name="rank">
+    <column id="375" parent="295" name="rank">
       <Position>3</Position>
       <Comment>项目分数排名</Comment>
       <DataType>int(1) unsigned zerofill|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="366" parent="294" name="edit_time">
+    <column id="376" parent="295" name="edit_time">
       <Position>4</Position>
       <Comment>修改时间</Comment>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
     </column>
-    <index id="367" parent="294" name="a_id">
+    <index id="377" parent="295" name="a_id">
       <ColNames>a_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="368" parent="294" name="PRIMARY">
+    <key id="378" parent="295" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ranking_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="369" parent="294" name="ranking_ibfk_1">
+    <foreign-key id="379" parent="295" name="ranking_ibfk_1">
       <ColNames>a_id</ColNames>
       <RefSchemaName>scms</RefSchemaName>
       <RefTableName>athlete</RefTableName>
       <RefColNames>athlete_id</RefColNames>
     </foreign-key>
-    <column id="370" parent="295" name="record_id">
+    <column id="380" parent="296" name="record_id">
       <Position>1</Position>
       <Comment>记录ID</Comment>
       <DataType>int|0s</DataType>
@@ -1606,54 +1660,91 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="371" parent="295" name="a_id">
+    <column id="381" parent="296" name="a_id">
       <Position>2</Position>
       <Comment>运动员ID</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="372" parent="295" name="record_score">
+    <column id="382" parent="296" name="record_score">
       <Position>3</Position>
       <Comment>项目记录分数</Comment>
       <DataType>decimal(11,2 digit)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="373" parent="295" name="record_status">
+    <column id="383" parent="296" name="record_status">
       <Position>4</Position>
       <Comment>记录状态(0不可用、1可用)</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="374" parent="295" name="create_time">
+    <column id="384" parent="296" name="create_time">
       <Position>5</Position>
       <Comment>创建时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="375" parent="295" name="edit_time">
+    <column id="385" parent="296" name="edit_time">
       <Position>6</Position>
       <Comment>修改时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="376" parent="295" name="a_id">
+    <index id="386" parent="296" name="a_id">
       <ColNames>a_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="377" parent="295" name="PRIMARY">
+    <key id="387" parent="296" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>record_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="378" parent="295" name="record_ibfk_1">
+    <foreign-key id="388" parent="296" name="record_ibfk_1">
       <ColNames>a_id</ColNames>
       <RefSchemaName>scms</RefSchemaName>
       <RefTableName>athlete</RefTableName>
       <RefColNames>athlete_id</RefColNames>
     </foreign-key>
-    <column id="379" parent="296" name="score_id">
+    <column id="389" parent="297" name="id">
+      <Position>1</Position>
+      <Comment>主键自增</Comment>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="390" parent="297" name="team_id">
+      <Position>2</Position>
+      <Comment>获奖队伍的ID</Comment>
+      <DataType>int|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="391" parent="297" name="user_id">
+      <Position>3</Position>
+      <Comment>个人获奖ID</Comment>
+      <DataType>int|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="392" parent="297" name="img_url">
+      <Position>4</Position>
+      <Comment>图片存储的地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="393" parent="297" name="create_time">
+      <Position>5</Position>
+      <Comment>获奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="394" parent="297" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="395" parent="298" name="score_id">
       <Position>1</Position>
       <Comment>分数ID</Comment>
       <DataType>int|0s</DataType>
@@ -1661,55 +1752,55 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="380" parent="296" name="a_id">
+    <column id="396" parent="298" name="a_id">
       <Position>2</Position>
       <Comment>运动员ID</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="381" parent="296" name="score">
+    <column id="397" parent="298" name="score">
       <Position>3</Position>
       <Comment>项目分数</Comment>
       <DataType>decimal(11,2 digit)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="382" parent="296" name="is_break_record">
+    <column id="398" parent="298" name="is_break_record">
       <Position>4</Position>
       <Comment>是否破纪录(0未破纪录、1破纪录)</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="383" parent="296" name="create_time">
+    <column id="399" parent="298" name="create_time">
       <Position>5</Position>
       <Comment>创建时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="384" parent="296" name="edit_time">
+    <column id="400" parent="298" name="edit_time">
       <Position>6</Position>
       <Comment>修改时间&#xd;
 </Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="385" parent="296" name="a_id">
+    <index id="401" parent="298" name="a_id">
       <ColNames>a_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="386" parent="296" name="PRIMARY">
+    <key id="402" parent="298" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>score_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="387" parent="296" name="score_ibfk_1">
+    <foreign-key id="403" parent="298" name="score_ibfk_1">
       <ColNames>a_id</ColNames>
       <RefSchemaName>scms</RefSchemaName>
       <RefTableName>athlete</RefTableName>
       <RefColNames>athlete_id</RefColNames>
     </foreign-key>
-    <column id="388" parent="297" name="season_id">
+    <column id="404" parent="299" name="season_id">
       <Position>1</Position>
       <Comment>届时ID</Comment>
       <DataType>int|0s</DataType>
@@ -1717,74 +1808,74 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="389" parent="297" name="season_name">
+    <column id="405" parent="299" name="season_name">
       <Position>2</Position>
       <Comment>运动会名称</Comment>
       <DataType>varchar(64)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="390" parent="297" name="season_topic_desc">
+    <column id="406" parent="299" name="season_topic_desc">
       <Position>3</Position>
       <Comment>运动会主题描述</Comment>
       <DataType>varchar(1024)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="391" parent="297" name="season_begin_time">
+    <column id="407" parent="299" name="season_begin_time">
       <Position>4</Position>
       <Comment>运动会开始时间</Comment>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="392" parent="297" name="season_end_time">
+    <column id="408" parent="299" name="season_end_time">
       <Position>5</Position>
       <Comment>运动会结束时间</Comment>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="393" parent="297" name="season_status">
+    <column id="409" parent="299" name="season_status">
       <Position>6</Position>
       <Comment>运动会状态(0结束、1举行中)</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="394" parent="297" name="season_athlete_amount">
+    <column id="410" parent="299" name="season_athlete_amount">
       <Position>7</Position>
       <Comment>运动会参赛人数</Comment>
       <DataType>int|0s</DataType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="395" parent="297" name="create_time">
+    <column id="411" parent="299" name="create_time">
       <Position>8</Position>
       <Comment>创建时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="396" parent="297" name="edit_time">
+    <column id="412" parent="299" name="edit_time">
       <Position>9</Position>
       <Comment>修改时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="397" parent="297" name="season_name">
+    <index id="413" parent="299" name="season_name">
       <ColNames>season_name</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="398" parent="297" name="PRIMARY">
+    <key id="414" parent="299" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>season_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="399" parent="297" name="season_name">
+    <key id="415" parent="299" name="season_name">
       <ColNames>season_name</ColNames>
       <UnderlyingIndexName>season_name</UnderlyingIndexName>
     </key>
-    <column id="400" parent="298" name="submenu_id">
+    <column id="416" parent="300" name="submenu_id">
       <Position>1</Position>
       <Comment>副菜单ID</Comment>
       <DataType>int|0s</DataType>
@@ -1792,50 +1883,50 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="401" parent="298" name="title">
+    <column id="417" parent="300" name="title">
       <Position>2</Position>
       <Comment>副菜单标题</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="402" parent="298" name="path">
+    <column id="418" parent="300" name="path">
       <Position>3</Position>
       <Comment>副菜单URL路径</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="403" parent="298" name="mid">
+    <column id="419" parent="300" name="mid">
       <Position>4</Position>
       <Comment>主菜单ID</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="404" parent="298" name="type">
+    <column id="420" parent="300" name="type">
       <Position>5</Position>
       <Comment>菜单类型(0所有人可见、1管理员可见、2记分员可见、3运动员可见)</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="405" parent="298" name="mid">
+    <index id="421" parent="300" name="mid">
       <ColNames>mid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="406" parent="298" name="PRIMARY">
+    <key id="422" parent="300" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>submenu_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="407" parent="298" name="submenu_ibfk_1">
+    <foreign-key id="423" parent="300" name="submenu_ibfk_1">
       <ColNames>mid</ColNames>
       <RefSchemaName>scms</RefSchemaName>
       <RefTableName>mainmenu</RefTableName>
       <RefColNames>mainmenu_id</RefColNames>
     </foreign-key>
-    <column id="408" parent="299" name="syslog_id">
+    <column id="424" parent="301" name="syslog_id">
       <Position>1</Position>
       <Comment>系统日志ID</Comment>
       <DataType>int|0s</DataType>
@@ -1843,47 +1934,47 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="409" parent="299" name="execution_time">
+    <column id="425" parent="301" name="execution_time">
       <Position>2</Position>
       <Comment>执行时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="410" parent="299" name="execution_uid">
+    <column id="426" parent="301" name="execution_uid">
       <Position>3</Position>
       <Comment>执行用户ID</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="411" parent="299" name="method">
+    <column id="427" parent="301" name="method">
       <Position>4</Position>
       <Comment>执行方法名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="412" parent="299" name="parameter">
+    <column id="428" parent="301" name="parameter">
       <Position>5</Position>
       <Comment>执行参数</Comment>
       <DataType>text|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="413" parent="299" name="execution_uid">
+    <index id="429" parent="301" name="execution_uid">
       <ColNames>execution_uid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="414" parent="299" name="PRIMARY">
+    <key id="430" parent="301" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>syslog_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="415" parent="299" name="syslog_ibfk_1">
+    <foreign-key id="431" parent="301" name="syslog_ibfk_1">
       <ColNames>execution_uid</ColNames>
       <RefSchemaName>scms</RefSchemaName>
       <RefTableName>user</RefTableName>
       <RefColNames>user_id</RefColNames>
     </foreign-key>
-    <column id="416" parent="300" name="team_id">
+    <column id="432" parent="302" name="team_id">
       <Position>1</Position>
       <Comment>团体ID</Comment>
       <DataType>int|0s</DataType>
@@ -1891,47 +1982,47 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="417" parent="300" name="team_name">
+    <column id="433" parent="302" name="team_name">
       <Position>2</Position>
       <Comment>团体名称</Comment>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="418" parent="300" name="create_time">
+    <column id="434" parent="302" name="create_time">
       <Position>3</Position>
       <Comment>创建时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="419" parent="300" name="edit_time">
+    <column id="435" parent="302" name="edit_time">
       <Position>4</Position>
       <Comment>修改时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="420" parent="300" name="leader_id">
+    <column id="436" parent="302" name="leader_id">
       <Position>5</Position>
       <Comment>领队ID</Comment>
       <DataType>int|0s</DataType>
       <DefaultExpression>&apos;-1&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="421" parent="300" name="team_name">
+    <index id="437" parent="302" name="team_name">
       <ColNames>team_name</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="422" parent="300" name="PRIMARY">
+    <key id="438" parent="302" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>team_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="423" parent="300" name="team_name">
+    <key id="439" parent="302" name="team_name">
       <ColNames>team_name</ColNames>
       <UnderlyingIndexName>team_name</UnderlyingIndexName>
     </key>
-    <column id="424" parent="301" name="user_id">
+    <column id="440" parent="303" name="user_id">
       <Position>1</Position>
       <Comment>用户ID</Comment>
       <DataType>int|0s</DataType>
@@ -1939,41 +2030,41 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="425" parent="301" name="user_no">
+    <column id="441" parent="303" name="user_no">
       <Position>2</Position>
       <Comment>用户编号</Comment>
       <DataType>varchar(13)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="426" parent="301" name="nickname">
+    <column id="442" parent="303" name="nickname">
       <Position>3</Position>
       <Comment>用户姓名</Comment>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="427" parent="301" name="username">
+    <column id="443" parent="303" name="username">
       <Position>4</Position>
       <Comment>用户账号</Comment>
       <DataType>varchar(13)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="428" parent="301" name="password">
+    <column id="444" parent="303" name="password">
       <Position>5</Position>
       <Comment>用户密码</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="429" parent="301" name="user_sex">
+    <column id="445" parent="303" name="user_sex">
       <Position>6</Position>
       <Comment>用户性别</Comment>
       <DataType>varchar(2)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="430" parent="301" name="user_type">
+    <column id="446" parent="303" name="user_type">
       <Position>7</Position>
       <Comment>用户类型</Comment>
       <DataType>int|0s</DataType>
@@ -1981,56 +2072,56 @@
       <DefaultExpression>&apos;1&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="431" parent="301" name="t_id">
+    <column id="447" parent="303" name="t_id">
       <Position>8</Position>
       <Comment>团体ID</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="432" parent="301" name="phone">
+    <column id="448" parent="303" name="phone">
       <Position>9</Position>
       <Comment>电话</Comment>
       <DataType>varchar(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="433" parent="301" name="create_time">
+    <column id="449" parent="303" name="create_time">
       <Position>10</Position>
       <Comment>创建时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="434" parent="301" name="edit_time">
+    <column id="450" parent="303" name="edit_time">
       <Position>11</Position>
       <Comment>修改时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="435" parent="301" name="user_no">
+    <index id="451" parent="303" name="user_no">
       <ColNames>user_no</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="436" parent="301" name="t_id">
+    <index id="452" parent="303" name="t_id">
       <ColNames>t_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="437" parent="301" name="PRIMARY">
+    <key id="453" parent="303" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>user_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="438" parent="301" name="user_no">
+    <key id="454" parent="303" name="user_no">
       <ColNames>user_no</ColNames>
       <UnderlyingIndexName>user_no</UnderlyingIndexName>
     </key>
-    <foreign-key id="439" parent="301" name="user_ibfk_1">
+    <foreign-key id="455" parent="303" name="user_ibfk_1">
       <ColNames>t_id</ColNames>
       <RefSchemaName>scms</RefSchemaName>
       <RefTableName>team</RefTableName>
       <RefColNames>team_id</RefColNames>
     </foreign-key>
-    <column id="440" parent="302" name="id">
+    <column id="456" parent="304" name="id">
       <Position>1</Position>
       <Comment>主键 但是只能有16条数据</Comment>
       <DataType>int|0s</DataType>
@@ -2038,19 +2129,19 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="441" parent="302" name="t_id">
+    <column id="457" parent="304" name="t_id">
       <Position>2</Position>
       <Comment>比赛队伍的ID</Comment>
       <DataType>int|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="442" parent="302" name="t_name">
+    <column id="458" parent="304" name="t_name">
       <Position>3</Position>
       <Comment>比赛队伍的名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="443" parent="302" name="stage">
+    <column id="459" parent="304" name="stage">
       <Position>4</Position>
       <Comment>队伍处于的阶段 &#xd;
 1表示16强&#xd;
@@ -2062,7 +2153,7 @@
       <DefaultExpression>&apos;1&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="444" parent="302" name="status">
+    <column id="460" parent="304" name="status">
       <Position>5</Position>
       <Comment>是否报名占位&#xd;
 0是没有报名&#xd;
@@ -2072,7 +2163,7 @@
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="445" parent="302" name="PRIMARY">
+    <key id="461" parent="304" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

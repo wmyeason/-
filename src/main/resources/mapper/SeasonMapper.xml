@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ashuo.scms.mapper.SeasonMapper">
-    <resultMap id="seasonMap" type="com.ashuo.scms.entity.Season">
+<mapper namespace="com.wmy.scms.mapper.SeasonMapper">
+    <resultMap id="seasonMap" type="com.wmy.scms.entity.Season">
         <id column="season_id" property="seasonId"/>
         <result column="season_name" property="seasonName"/>
         <result column="season_topic_desc" property="seasonTopicDesc"/>
@@ -14,7 +14,7 @@
     </resultMap>
 
 
-    <insert id="insertSeason" parameterType="com.ashuo.scms.entity.Season"
+    <insert id="insertSeason" parameterType="com.wmy.scms.entity.Season"
             useGeneratedKeys="true" keyColumn="season_id" keyProperty="seasonId">
         INSERT INTO season(season_name, season_topic_desc, season_begin_time, season_end_time, season_status,
         season_athlete_amount, create_time, edit_time)
@@ -29,7 +29,7 @@
     </delete>
 
 
-    <update id="updateSeason" parameterType="com.ashuo.scms.entity.Season">
+    <update id="updateSeason" parameterType="com.wmy.scms.entity.Season">
         UPDATE
         season
         <set>
@@ -78,7 +78,7 @@
         </where>
     </select>
 
-    <select id="querySeasonById" resultType="com.ashuo.scms.entity.Season">
+    <select id="querySeasonById" resultType="com.wmy.scms.entity.Season">
         SELECT *
         FROM season
         WHERE season_id = #{seasonId}

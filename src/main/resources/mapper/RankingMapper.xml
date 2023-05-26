@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ashuo.scms.mapper.RankingMapper">
-    <resultMap id="rankingMap" type="com.ashuo.scms.entity.Ranking">
+<mapper namespace="com.wmy.scms.mapper.RankingMapper">
+    <resultMap id="rankingMap" type="com.wmy.scms.entity.Ranking">
         <id column="ranking_id" property="rankingId"/>
         <result column="rank" property="rank"/>
         <result column="edit_time" property="editTime"/>
-        <association property="athlete" javaType="com.ashuo.scms.entity.Athlete">
+        <association property="athlete" javaType="com.wmy.scms.entity.Athlete">
             <id column="athlete_id" property="athleteId"/>
-            <association property="item" javaType="com.ashuo.scms.entity.Item">
+            <association property="item" javaType="com.wmy.scms.entity.Item">
                 <id column="item_id" property="itemId"/>
                 <result column="item_name" property="itemName"/>
                 <result column="athlete_amount" property="athleteAmount"/>
-                <association property="season" javaType="com.ashuo.scms.entity.Season">
+                <association property="season" javaType="com.wmy.scms.entity.Season">
                     <id column="se_id" property="seasonId"/>
                     <result column="season_name" property="seasonName"/>
                 </association>
             </association>
-            <association property="user" javaType="com.ashuo.scms.entity.User">
+            <association property="user" javaType="com.wmy.scms.entity.User">
                 <id column="user_id" property="userId"/>
                 <result column="user_no" property="userNo"/>
                 <result column="nickname" property="nickname"/>
                 <result column="user_sex" property="userSex"/>
-                <association property="team" javaType="com.ashuo.scms.entity.Team">
+                <association property="team" javaType="com.wmy.scms.entity.Team">
                     <id column="team_id" property="teamId"/>
                     <result column="team_name" property="teamName"/>
                 </association>

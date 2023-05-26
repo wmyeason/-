@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ashuo.scms.mapper.RecordMapper">
-    <resultMap id="recordMap" type="com.ashuo.scms.entity.Record">
+<mapper namespace="com.wmy.scms.mapper.RecordMapper">
+    <resultMap id="recordMap" type="com.wmy.scms.entity.Record">
         <id column="record_id" property="recordId"/>
         <result column="record_score" property="recordScore"/>
         <result column="record_status" property="recordStatus"/>
         <result column="create_time" property="createTime"/>
         <result column="editTime" property="editTime"/>
-        <association property="athlete" javaType="com.ashuo.scms.entity.Athlete">
+        <association property="athlete" javaType="com.wmy.scms.entity.Athlete">
             <id column="athlete_id" property="athleteId"/>
-            <association property="item" javaType="com.ashuo.scms.entity.Item">
+            <association property="item" javaType="com.wmy.scms.entity.Item">
                 <id column="item_id" property="itemId"/>
                 <result column="item_name" property="itemName"/>
                 <result column="item_sex" property="itemSex"/>
                 <result column="item_unit" property="itemUnit"/>
-                <association property="season" javaType="com.ashuo.scms.entity.Season">
+                <association property="season" javaType="com.wmy.scms.entity.Season">
                     <id column="se_id" property="seasonId"/>
                     <result column="season_name" property="seasonName"/>
                 </association>
             </association>
-            <association property="user" javaType="com.ashuo.scms.entity.User">
+            <association property="user" javaType="com.wmy.scms.entity.User">
                 <id column="user_id" property="userId"/>
                 <result column="nickname" property="nickname"/>
-                <association property="team" javaType="com.ashuo.scms.entity.Team">
+                <association property="team" javaType="com.wmy.scms.entity.Team">
                     <result column="team_id" property="teamId"/>
                     <result column="team_name" property="teamName"/>
                 </association>
@@ -31,7 +31,7 @@
     </resultMap>
 
 
-    <insert id="insertRecord" parameterType="com.ashuo.scms.entity.Record"
+    <insert id="insertRecord" parameterType="com.wmy.scms.entity.Record"
             useGeneratedKeys="true" keyColumn="record_id" keyProperty="recordId">
         INSERT INTO record(a_id, record_score, record_status, create_time, edit_time)
         VALUES (#{athlete.athleteId}, #{recordScore}, #{recordStatus}, #{createTime}, #{editTime})
@@ -96,7 +96,7 @@
     </select>
 
 
-    <update id="updateRecord" parameterType="com.ashuo.scms.entity.Record">
+    <update id="updateRecord" parameterType="com.wmy.scms.entity.Record">
         UPDATE record
         SET record_status=#{recordStatus}
         where record_id = #{recordId}

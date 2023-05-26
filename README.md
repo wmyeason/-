@@ -4,10 +4,10 @@
 
 * Project:SCMS(Sports Comprehensive Management System)
 * Technology Stack:Spring Boot+Shiro+JWT+Mybatis+Mybatis Plus+Swagger+EasyExcel
-* Author:AShuo
-* Time:2021-6-15
+* Author:wmy
+* Time:2023-3-15
 
 ## Login
 
-* username:ashuo
+* username:admin
 * password:123456
