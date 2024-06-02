@@ -3,6 +3,7 @@ package com.wmy.scms.mapper;
 import com.wmy.scms.entity.Item;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -15,6 +16,7 @@ import java.util.List;
  *
  * @since 2023-04-01
  */
+@Mapper
 public interface ItemMapper {
     //增加Item
     int insertItem(Item item);

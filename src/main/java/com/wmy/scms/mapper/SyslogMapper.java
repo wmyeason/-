@@ -2,6 +2,7 @@ package com.wmy.scms.mapper;
 
 import com.wmy.scms.entity.Syslog;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
@@ -12,6 +13,7 @@ import org.apache.ibatis.annotations.Param;
  *
  * @since 2023-04-11
  */
+@Mapper
 public interface SyslogMapper {
     //增加单个Score
     int insertSyslog(Syslog syslog);

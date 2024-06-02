@@ -240,7 +240,6 @@ public class ExcelController {
         contentStyle.setAlignment(HorizontalAlignment.CENTER);
         contentStyle.setVerticalAlignment(VerticalAlignment.CENTER);
 
-
         //创建数据行并写入值
         for (AthleteScoreDto as : athleteScoreDtoList) {
             int lastRowNum = sheet.getLastRowNum();

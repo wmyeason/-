@@ -43,7 +43,6 @@ public class RewardController {
         Page<Reward> rewardPage=new Page<>(info.getCurrentPage(),info.getPageSize());
         IPage<Reward> list=rewardService.getRewardById(user,rewardPage);
 
-
         return ServerResponse.createBySuccess(list);
     }
 }

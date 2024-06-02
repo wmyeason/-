@@ -4,6 +4,7 @@ import com.wmy.scms.dto.AthleteScoreDto;
 import com.wmy.scms.entity.Score;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -16,6 +17,7 @@ import java.util.List;
  *
  * @since 2023-04-05
  */
+@Mapper
 public interface ScoreMapper {
     //增加单个Score
     int insertScore(Score score);

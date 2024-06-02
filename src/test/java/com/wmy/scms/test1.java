@@ -1,4 +1,4 @@
-package com.ashuo.scms;
+package com.wmy.scms;
 
 
 import org.junit.jupiter.api.Test;
@@ -20,5 +20,20 @@ public class test1 {
         }
 
 
+    }
+
+    @Test
+    public void  t2(){
+        int money = 20,children = 3;
+        int res= 0;
+        money -= children;
+        while (money>7){
+            money-=7;
+            res++;
+        }
+        if(money==3){
+            res--;
+        }
+        System.out.println(res);
     }
 }

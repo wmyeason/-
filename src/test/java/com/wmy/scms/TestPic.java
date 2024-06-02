@@ -1,4 +1,4 @@
-package com.ashuo.scms;
+package com.wmy.scms;
 
 import lombok.Getter;
 import lombok.Setter;

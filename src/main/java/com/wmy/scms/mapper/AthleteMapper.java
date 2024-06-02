@@ -3,6 +3,7 @@ package com.wmy.scms.mapper;
 import com.wmy.scms.entity.Athlete;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>
@@ -12,6 +13,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
  *
  * @since 2023-04-05
  */
+@Mapper
 public interface AthleteMapper {
     //增加Athlete
     int insertAthlete(Athlete athlete);
