@@ -6,6 +6,7 @@
 * Technology Stack:Spring Boot+Shiro+JWT+Mybatis+Mybatis Plus+Swagger+EasyExcel
 * Author:wmy
 * Time:2023-3-15
+![image](https://github.com/wmyeason/scms/assets/46703900/d76c3a8c-2f60-4e5d-aafd-351da0fcfee1)
 
 ## Login
 
